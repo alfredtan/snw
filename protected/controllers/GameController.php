@@ -164,6 +164,26 @@ class GameController extends Controller
 			'/images/polaroid/e.png',
 			'/images/polaroid/f.png',
 			'/images/polaroid/g.png',
+			'/images/polaroid/p1.png',
+			'/images/polaroid/p2.png',
+			'/images/polaroid/p3.png',
+			'/images/polaroid/p4.png',
+			'/images/polaroid/p5.png',
+			'/images/polaroid/p6.png',
+			'/images/polaroid/p7.png',
+			'/images/polaroid/p8.png',
+			'/images/polaroid/p9.png',
+			'/images/polaroid/p10.png',
+			'/images/polaroid/p11.png',
+			'/images/polaroid/p12.png',
+			'/images/polaroid/p13.png',
+			'/images/polaroid/p14.png',
+			'/images/polaroid/p15.png',
+			'/images/polaroid/p16.png',
+			'/images/polaroid/p17.png',
+			'/images/polaroid/p18.png',
+			'/images/polaroid/p19.png',
+			'/images/polaroid/p20.png'
 		);
 		
 		return $lose[rand(0,count($lose)-1)];
