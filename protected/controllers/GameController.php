@@ -172,7 +172,7 @@ class GameController extends Controller
 			'/images/polaroid/e.png',
 			'/images/polaroid/f.png',
 			'/images/polaroid/g.png',
-			'/images/polaroid/p1.png',
+			/*'/images/polaroid/p1.png',
 			'/images/polaroid/p2.png',
 			'/images/polaroid/p3.png',
 			'/images/polaroid/p4.png',
@@ -191,7 +191,7 @@ class GameController extends Controller
 			'/images/polaroid/p17.png',
 			'/images/polaroid/p18.png',
 			'/images/polaroid/p19.png',
-			'/images/polaroid/p20.png'
+			'/images/polaroid/p20.png'*/
 		);
 		
 		shuffle($lose);
