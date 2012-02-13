@@ -200,7 +200,7 @@
                     <div style="padding:5px 10px 5px 15px; font-family:arial; font-size:12px;" id="tip-msg"></div>
                 </div>
                 <div class="share_tips">
-                	<a href="#"><img src="/images/share_tips.png" border="0" alt="share tips" /></a>
+                	<a href="javascript:;" id="share-tip-msg"><img src="/images/share_tips.png" border="0" alt="share tips" /></a>
                 </div>
             </div>
 			    <a class="close-reveal-modal" style="top: 158px;right: 22px;">&#215;</a>
@@ -264,7 +264,7 @@ you have registered
 		          link: '<?php echo Yii::app()->params['fanPageUrl']; ?>',
 		          picture: '<?php echo Yii::app()->params['feedIcon']; ?>',
 		          name: "Snap Your Free Rooms from AsiaRooms.com",
-		          caption: "Here's a travel tip when you DO win: " . $("#tip-msg").html(),
+		          caption: "Here's a travel tip when you DO win: " + $("#tip-msg").html(),
 		        };
 		        
 		    $('#loseModal').trigger('reveal:close');

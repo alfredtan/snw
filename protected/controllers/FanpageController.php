@@ -257,13 +257,13 @@ class FanpageController extends Controller
 		// empty, just go to fan page
 		if( empty ($request_ids))
 		{
-			$this->jsRedirect('http://www.facebook.com/pages/WooHoos-Test-Fan-Page/139884799379948?sk=app_211113102317615');
+			$this->jsRedirect( Yii::app()->params['fanPageUrl'] );
 		}
 		else
 		{
 			Yii::app()->session['request_ids'] = Yii::app()->request->getQuery('request_ids');
 			$this->manageFriendRequest(explode(',', Yii::app()->session['request_ids']));
-			$this->jsRedirect('http://www.facebook.com/pages/WooHoos-Test-Fan-Page/139884799379948?sk=app_211113102317615');
+			$this->jsRedirect( Yii::app()->params['fanPageUrl'] );
 			
 			// if ( $this->facebook->isConnected())
 			// {

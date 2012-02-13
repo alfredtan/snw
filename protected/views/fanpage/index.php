@@ -245,7 +245,7 @@ function onSuccess(d)
 				// incorrect answer
 				if(! d.data[x][0])
 				{
-					msg = msg + "Incorrect answer. Please try with a new question<br>";
+					msg = msg + "Incorrect answer. Please try again with a new question.<br>";
 					get_question();
 				}
 			}
