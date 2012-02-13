@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+div.form_container
+{
+	position:absolute;
+	top:320px;
+	left:100px;
+}
+
+/* ====== Register Background === */
+div.bkg_register
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	margin:0;
+	padding:0;
+}
+
+div.bkg_register_1
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:520px;
+	height:203px;
+	background-image:url(../images/reg_bkg/bkg_r_1.jpg);
+	background-repeat:no-repeat;
+}
+
+div.bkg_register_2
+{
+	position:absolute;
+	top:203px;
+	left:0px;
+	width:520px;
+	height:351px;
+	background-image:url(../images/reg_bkg/bkg_r_2.jpg);
+	background-repeat:no-repeat;
+}
+
+
+div.bkg_register_3
+{
+	position:absolute;
+	top:554px;
+	left:0px;
+	width:520px;
+	height:163px;
+	background-image:url(../images/reg_bkg/bkg_r_3.jpg);
+	background-repeat:no-repeat;
+}
+
+
+div.bkg_register_4
+{
+	position:absolute;
+	top:717px;
+	left:0px;
+	width:520px;
+	height:553px;
+	background-image:url(../images/reg_bkg/bkg_r_4.jpg);
+	background-repeat:no-repeat;
+}
+
+
+.input_txt
+{
+	border: 1px solid #b9bcbe;
+	background: #FFF;
+	height:20px;
+	width:300px;
+	color:#aeaeae;
+	padding:5px;
+	font-size:16px;
+	margin:0 0 0 4px;
+}
+
+.input_txt:focus
+{
+	border-color:#903;
+}
+
+div.form_submit
+{
+	position:absolute;
+	margin: 11px 0 0 240px;
+}

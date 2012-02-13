@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*=== Reset styles ===*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-weight:inherit;
+	font-style:inherit;
+	font-size:100%;
+	font-family:inherit;
+	vertical-align:baseline;
+}
+
+ul
+{
+	list-style-type:none;
+}
+
+
+body
+{
+	width:520px;
+	height:1500px;
+	overflow-x:hidden;
+	
+}
+
+.wrapper
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	margin:0;
+	padding:0;
+	width:520px;
+}
+
+
+div.clear
+{
+	clear:both;
+}
+
+
+/* ====== Home Background === */
+div.bkg_home
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	margin:0;
+	padding:0;
+}
+
+div.bkg_home_1
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:520px;
+	height:235px;
+	background-image:url(../images/home_bkg/bkg1_1.jpg);
+	background-repeat:no-repeat;
+}
+
+div.bkg_home_2
+{
+	position:absolute;
+	top:235px;
+	left:0px;
+	width:520px;
+	height:319px;
+	background-image:url(../images/home_bkg/bkg1_2.jpg);
+	background-repeat:no-repeat;
+}
+
+div.bkg_home_3
+{
+	position:absolute;
+	top:554px;
+	left:0px;
+	width:520px;
+	height:255px;
+	background-image:url(../images/home_bkg/bkg1_3.jpg);
+	background-repeat:no-repeat;
+}
+
+
+div.bkg_home_4
+{
+	position:absolute;
+	top:809px;
+	left:0px;
+	width:520px;
+	height:347px;
+	background-image:url(../images/home_bkg/bkg1_4.jpg);
+	background-repeat:no-repeat;
+}
+
+
+
+/* ======= Facebook share ===== */
+div.fb_share
+{
+	position:absolute;
+	left:390px;
+	top:10px;
+}
+
+a.fb_share_link
+{
+	display:block;
+	width:117px;
+	height:63px;
+	background:url("../images/share.png") no-repeat 0 0;
+}
+
+a.fb_share_link:hover
+{
+	background-position: 0 -63px;
+}
+
+
+/* ======= Snap to Win ===== */
+div.snap_win
+{
+	position:absolute;
+	left:190px;
+	top:750px;
+}
+
+a.snap_win_link
+{
+	display:block;
+	width:133px;
+	height:46px;
+	background:url("../images/snap.png") no-repeat 0 0;
+}
+
+a.snap_win_link:hover
+{
+	background-position: 0 -46px;
+}
+
+
+/* ===== T and C ==== */
+div.t_c
+{
+	position:absolute;
+	top:1100px;
+	font-family:Arial;
+	font-size:10px;
+	color:#b9bcbe;
+	left:190px;
+}
+
+div.t_c a
+{
+	font-family:Arial;
+	font-size:10px;
+	color:#b9bcbe;
+	text-decoration:none;
+}
+
+div.t_c a:hover
+{
+	text-decoration:underline;
+}
+
+
+
+
+
+

@@ -1,6 +1,7 @@
 .settings
-.zip
 .project
+
+*.zip
 
 # OS generated files #
 ######################

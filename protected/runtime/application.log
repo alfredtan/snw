@@ -1,0 +1,2287 @@
+2012/01/30 17:06:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\htdocs\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('about')
+#1 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\htdocs\snw\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snw/index.php/site/index?r=about
+---
+2012/01/30 17:06:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\htdocs\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('about')
+#1 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\htdocs\snw\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snw/index.php/site/pages?r=about
+---
+2012/01/30 17:06:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\htdocs\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('about')
+#1 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\htdocs\snw\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snw/index.php/site/index/?r=about
+---
+2012/01/30 17:42:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\htdocs\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('css')
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('fanpage/css/rev...')
+#3 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\htdocs\snw\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/snw/index.php/fanpage/css/reveal.css
+HTTP_REFERER=http://localhost/snw/index.php/fanpage/?r=gii/model
+---
+2012/01/30 17:42:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\htdocs\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('js')
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('fanpage/js/jque...')
+#3 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\htdocs\snw\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/snw/index.php/fanpage/js/jquery.reveal.js
+HTTP_REFERER=http://localhost/snw/index.php/fanpage/?r=gii/model
+---
+2012/01/30 17:42:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.reveal.js".' in C:\htdocs\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.revea...')
+#1 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\htdocs\snw\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snw/index.php/js/jquery.reveal.js
+HTTP_REFERER=http://localhost/snw/index.php/fanpage?r=gii/model
+---
+2012/01/30 17:42:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/reveal.css".' in C:\htdocs\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('css/reveal.css')
+#1 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\htdocs\snw\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snw/index.php/css/reveal.css
+HTTP_REFERER=http://localhost/snw/index.php/fanpage?r=gii/model
+---
+2012/01/30 17:43:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.reveal.js".' in C:\htdocs\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.revea...')
+#1 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\htdocs\snw\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snw/index.php/js/jquery.reveal.js
+HTTP_REFERER=http://localhost/snw/index.php/fanpage
+---
+2012/01/30 17:43:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/reveal.css".' in C:\htdocs\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('css/reveal.css')
+#1 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\htdocs\snw\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snw/index.php/css/reveal.css
+HTTP_REFERER=http://localhost/snw/index.php/fanpage
+---
+2012/01/30 17:43:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.reveal.js".' in C:\htdocs\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.revea...')
+#1 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\htdocs\snw\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snw/index.php/js/jquery.reveal.js
+HTTP_REFERER=http://localhost/snw/index.php/fanpage
+---
+2012/01/30 17:43:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/reveal.css".' in C:\htdocs\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('css/reveal.css')
+#1 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\htdocs\snw\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/snw/index.php/css/reveal.css
+HTTP_REFERER=http://localhost/snw/index.php/fanpage
+---
+2012/01/30 17:46:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\htdocs\yii_framework\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\htdocs\yii_framework\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\htdocs\yii_framework\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\htdocs\yii_framework\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\htdocs\yii_framework\framework\gii\generators\model\ModelCode.php(54): CModule->__get('db')
+#5 C:\htdocs\yii_framework\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\htdocs\yii_framework\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#7 C:\htdocs\yii_framework\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/model')
+#14 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\htdocs\snw\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/snw/index.php/gii/model
+HTTP_REFERER=http://localhost/snw/index.php/fanpage/index?r=gii
+---
+2012/01/31 11:23:56 [error] [php] Undefined variable: select (C:\htdocs\snw\protected\views\layouts\main.php:16)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(785): FanpageController->renderFile()
+#1 C:\htdocs\snw\protected\controllers\FanpageController.php(10): FanpageController->render()
+#2 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#3 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#6 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#7 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#8 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\htdocs\snw\protected\views\layouts\main.php (16)
+in C:\htdocs\snw\protected\controllers\FanpageController.php (10)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 11:24:07 [error] [php] Undefined variable: models (C:\htdocs\snw\protected\views\layouts\main.php:17)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(785): FanpageController->renderFile()
+#1 C:\htdocs\snw\protected\controllers\FanpageController.php(10): FanpageController->render()
+#2 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#3 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#6 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#7 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#8 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\htdocs\snw\protected\views\layouts\main.php (17)
+in C:\htdocs\snw\protected\controllers\FanpageController.php (10)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 11:24:11 [error] [php] Undefined variable: model (C:\htdocs\snw\protected\views\layouts\main.php:17)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(785): FanpageController->renderFile()
+#1 C:\htdocs\snw\protected\controllers\FanpageController.php(10): FanpageController->render()
+#2 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#3 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#6 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#7 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#8 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\htdocs\snw\protected\views\layouts\main.php (17)
+in C:\htdocs\snw\protected\controllers\FanpageController.php (10)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 11:26:03 [error] [php] Object of class Destination could not be converted to string (C:\htdocs\yii_framework\framework\web\helpers\CHtml.php:1865)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CBaseController.php(127): require()
+#1 C:\htdocs\yii_framework\framework\web\CBaseController.php(96): FanpageController->renderInternal()
+#2 C:\htdocs\yii_framework\framework\web\CController.php(870): FanpageController->renderFile()
+#3 C:\htdocs\yii_framework\framework\web\CController.php(783): FanpageController->renderPartial()
+#4 C:\htdocs\snw\protected\controllers\FanpageController.php(10): FanpageController->render()
+#5 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#6 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#7 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#8 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#10 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#11 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\htdocs\snw\protected\views\fanpage\public.php (8)
+in C:\htdocs\snw\protected\controllers\FanpageController.php (10)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 11:32:38 [error] [exception.CException] exception 'CException' with message 'Property "Destination.value" is not defined.' in C:\htdocs\yii_framework\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(144): CComponent->__get('value')
+#1 C:\htdocs\yii_framework\framework\web\helpers\CHtml.php(1696): CActiveRecord->__get('value')
+#2 C:\htdocs\yii_framework\framework\web\helpers\CHtml.php(1660): CHtml::value(Object(Destination), 'value')
+#3 C:\htdocs\snw\protected\views\fanpage\public.php(12): CHtml::listData(Array, 'id', 'value')
+#4 C:\htdocs\yii_framework\framework\web\CBaseController.php(127): require('C:\htdocs\snw\p...')
+#5 C:\htdocs\yii_framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\htdocs\snw\p...', Array, true)
+#6 C:\htdocs\yii_framework\framework\web\CController.php(870): CBaseController->renderFile('C:\htdocs\snw\p...', Array, true)
+#7 C:\htdocs\yii_framework\framework\web\CController.php(783): CController->renderPartial('public', Array, true)
+#8 C:\htdocs\snw\protected\controllers\FanpageController.php(9): CController->render('public', Array)
+#9 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#10 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('')
+#14 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#15 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\htdocs\snw\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+---
+2012/01/31 11:33:33 [error] [php] Object of class Destination could not be converted to string (C:\htdocs\yii_framework\framework\web\helpers\CHtml.php:1712)
+Stack trace:
+#0 C:\htdocs\snw\protected\views\fanpage\public.php(14): dropDownList()
+#1 C:\htdocs\yii_framework\framework\web\CBaseController.php(127): require()
+#2 C:\htdocs\yii_framework\framework\web\CBaseController.php(96): FanpageController->renderInternal()
+#3 C:\htdocs\yii_framework\framework\web\CController.php(870): FanpageController->renderFile()
+#4 C:\htdocs\yii_framework\framework\web\CController.php(783): FanpageController->renderPartial()
+#5 C:\htdocs\snw\protected\controllers\FanpageController.php(9): FanpageController->render()
+#6 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#7 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#9 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#10 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#11 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#12 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\htdocs\snw\protected\views\fanpage\public.php (14)
+in C:\htdocs\snw\protected\controllers\FanpageController.php (9)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 11:33:50 [error] [php] Missing argument 2 for CHtml::listData(), called in C:\htdocs\snw\protected\views\fanpage\public.php on line 12 and defined (C:\htdocs\yii_framework\framework\web\helpers\CHtml.php:1652)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CBaseController.php(96): FanpageController->renderInternal()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(870): FanpageController->renderFile()
+#2 C:\htdocs\yii_framework\framework\web\CController.php(783): FanpageController->renderPartial()
+#3 C:\htdocs\snw\protected\controllers\FanpageController.php(9): FanpageController->render()
+#4 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#7 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\htdocs\snw\protected\views\fanpage\public.php (12)
+in C:\htdocs\snw\protected\controllers\FanpageController.php (9)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 11:45:02 [error] [php] Object of class User could not be converted to string (C:\htdocs\yii_framework\framework\web\helpers\CHtml.php:1712)
+Stack trace:
+#0 C:\htdocs\snw\protected\views\fanpage\public.php(26): dropDownList()
+#1 C:\htdocs\yii_framework\framework\web\CBaseController.php(127): require()
+#2 C:\htdocs\yii_framework\framework\web\CBaseController.php(96): FanpageController->renderInternal()
+#3 C:\htdocs\yii_framework\framework\web\CController.php(870): FanpageController->renderFile()
+#4 C:\htdocs\yii_framework\framework\web\CController.php(783): FanpageController->renderPartial()
+#5 C:\htdocs\snw\protected\controllers\FanpageController.php(9): FanpageController->render()
+#6 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#7 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#9 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#10 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#11 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#12 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\htdocs\snw\protected\views\fanpage\public.php (26)
+in C:\htdocs\snw\protected\controllers\FanpageController.php (9)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 11:56:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "register".' in C:\htdocs\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('register')
+#1 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\htdocs\snw\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/register
+---
+2012/01/31 11:56:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "register".' in C:\htdocs\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('register')
+#1 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\htdocs\snw\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/register
+HTTP_REFERER=http://snw.sandbox.dev.proximity.com.sg/
+---
+2012/01/31 11:57:07 [error] [php] Undefined index:  name (C:\htdocs\snw\protected\controllers\FanpageController.php:15)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/register
+in C:\htdocs\snw\protected\controllers\FanpageController.php (15)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 16:47:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "register".' in C:\htdocs\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('register')
+#1 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\htdocs\snw\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/register?_=1327999649392
+HTTP_REFERER=http://snw.sandbox.dev.proximity.com.sg/
+---
+2012/01/31 16:48:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "register".' in C:\htdocs\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('register')
+#1 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\htdocs\snw\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/register
+---
+2012/01/31 17:01:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "register".' in C:\htdocs\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('register')
+#1 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\htdocs\snw\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/register
+HTTP_REFERER=http://snw.sandbox.dev.proximity.com.sg/
+---
+2012/01/31 17:01:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "register".' in C:\htdocs\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('register')
+#1 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\htdocs\snw\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/register
+HTTP_REFERER=http://snw.sandbox.dev.proximity.com.sg/
+---
+2012/01/31 17:01:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "register".' in C:\htdocs\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('register')
+#1 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\htdocs\snw\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/register
+HTTP_REFERER=http://snw.sandbox.dev.proximity.com.sg/
+---
+2012/01/31 17:30:43 [error] [php] Undefined index:  register-form (C:\htdocs\snw\protected\controllers\FanpageController.php:16)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/register
+in C:\htdocs\snw\protected\controllers\FanpageController.php (16)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 17:31:28 [error] [php] Undefined index:  register-form (C:\htdocs\snw\protected\controllers\FanpageController.php:16)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/register
+in C:\htdocs\snw\protected\controllers\FanpageController.php (16)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 17:32:29 [error] [php] Undefined index:  register-form (C:\htdocs\snw\protected\controllers\FanpageController.php:16)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/register
+in C:\htdocs\snw\protected\controllers\FanpageController.php (16)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 17:32:42 [error] [php] Undefined index:  register-form (C:\htdocs\snw\protected\controllers\FanpageController.php:16)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/register
+in C:\htdocs\snw\protected\controllers\FanpageController.php (16)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 17:36:11 [error] [php] include(CJson.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\htdocs\yii_framework\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\htdocs\snw\protected\controllers\FanpageController.php(16): spl_autoload_call()
+#1 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionRegister()
+#2 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#4 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#5 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#6 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#7 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/register
+in C:\htdocs\snw\protected\controllers\FanpageController.php (16)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 17:39:47 [error] [exception.CException] exception 'CException' with message 'Property "User.attrbutes" is not defined.' in C:\htdocs\yii_framework\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(160): CComponent->__set('attrbutes', Array)
+#1 C:\htdocs\snw\protected\controllers\FanpageController.php(19): CActiveRecord->__set('attrbutes', Array)
+#2 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionRegister()
+#3 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('register')
+#7 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('fanpage/registe...')
+#8 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\htdocs\snw\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/fanpage/register
+HTTP_REFERER=http://snw.sandbox.dev.proximity.com.sg/
+---
+2012/01/31 17:43:06 [error] [php] Trying to get property of non-object (C:\htdocs\snw\protected\controllers\FanpageController.php:22)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/register
+in C:\htdocs\snw\protected\controllers\FanpageController.php (22)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 17:43:28 [error] [php] Indirect modification of overloaded property User::$attributes has no effect (C:\htdocs\snw\protected\controllers\FanpageController.php:22)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/register
+in C:\htdocs\snw\protected\controllers\FanpageController.php (22)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 17:47:42 [error] [php] Indirect modification of overloaded property User::$attributes has no effect (C:\htdocs\snw\protected\controllers\FanpageController.php:22)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/register
+in C:\htdocs\snw\protected\controllers\FanpageController.php (22)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 17:47:55 [error] [php] Indirect modification of overloaded property User::$attributes has no effect (C:\htdocs\snw\protected\controllers\FanpageController.php:22)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/register
+in C:\htdocs\snw\protected\controllers\FanpageController.php (22)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 17:48:07 [error] [php] Indirect modification of overloaded property User::$attributes has no effect (C:\htdocs\snw\protected\controllers\FanpageController.php:22)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/register
+in C:\htdocs\snw\protected\controllers\FanpageController.php (22)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 18:07:08 [warning] [application] Failed to set unsafe attribute "dateRegistered" of "User".
+in C:\htdocs\snw\protected\controllers\FanpageController.php (24)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 18:07:08 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1292 Incorrect datetime value: 'NOW()' for column 'dateEntry' at row 1. The SQL statement executed was: INSERT INTO `app_user` (`name`, `email`, `destinationId`, `fbid`, `dateEntry`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\htdocs\snw\protected\controllers\FanpageController.php (25)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 18:07:23 [warning] [application] Failed to set unsafe attribute "dateRegistered" of "User".
+in C:\htdocs\snw\protected\controllers\FanpageController.php (24)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 18:07:23 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1292 Incorrect datetime value: 'NOW()' for column 'dateEntry' at row 1. The SQL statement executed was: INSERT INTO `app_user` (`name`, `email`, `destinationId`, `fbid`, `dateEntry`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\htdocs\snw\protected\controllers\FanpageController.php (25)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 18:07:44 [warning] [application] Failed to set unsafe attribute "dateRegistered" of "User".
+in C:\htdocs\snw\protected\controllers\FanpageController.php (24)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 18:07:44 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1292 Incorrect datetime value: 'NOW()' for column 'dateEntry' at row 1. The SQL statement executed was: INSERT INTO `app_user` (`name`, `email`, `destinationId`, `fbid`, `dateEntry`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\htdocs\snw\protected\controllers\FanpageController.php (25)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 18:07:46 [warning] [application] Failed to set unsafe attribute "dateRegistered" of "User".
+in C:\htdocs\snw\protected\controllers\FanpageController.php (24)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 18:07:46 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1292 Incorrect datetime value: 'NOW()' for column 'dateEntry' at row 1. The SQL statement executed was: INSERT INTO `app_user` (`name`, `email`, `destinationId`, `fbid`, `dateEntry`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\htdocs\snw\protected\controllers\FanpageController.php (25)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 18:07:55 [warning] [application] Failed to set unsafe attribute "dateRegistered" of "User".
+in C:\htdocs\snw\protected\controllers\FanpageController.php (24)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 18:07:55 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1292 Incorrect datetime value: 'NOW()' for column 'dateEntry' at row 1. The SQL statement executed was: INSERT INTO `app_user` (`name`, `email`, `destinationId`, `fbid`, `dateEntry`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\htdocs\snw\protected\controllers\FanpageController.php (25)
+in C:\htdocs\snw\index.php (13)
+2012/01/31 18:10:04 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123123123' for key 1. The SQL statement executed was: INSERT INTO `app_user` (`name`, `email`, `destinationId`, `fbid`, `dateEntry`, `dateRegistered`) VALUES (:yp0, :yp1, :yp2, :yp3, NOW(), NOW()).
+in C:\htdocs\snw\protected\controllers\FanpageController.php (23)
+in C:\htdocs\snw\index.php (13)
+2012/02/01 10:51:14 [error] [php] require(facebook/facebook.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory (C:\htdocs\snw\protected\models\FacebookWrapper.php:4)
+Stack trace:
+#0 unknown(0): autoload()
+#1 C:\htdocs\snw\protected\controllers\FanpageController.php(11): spl_autoload_call()
+#2 C:\htdocs\yii_framework\framework\web\CController.php(307): FanpageController->beforeAction()
+#3 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#4 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#5 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#6 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#7 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\htdocs\snw\protected\models\FacebookWrapper.php (4)
+in C:\htdocs\snw\protected\models\FacebookWrapper.php (4)
+in C:\htdocs\snw\protected\controllers\FanpageController.php (11)
+2012/02/01 11:01:44 [error] [php] Undefined index:  user_id (C:\htdocs\snw\protected\controllers\FanpageController.php:22)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\htdocs\snw\protected\controllers\FanpageController.php (22)
+in C:\htdocs\snw\index.php (13)
+2012/02/01 12:10:49 [error] [exception.FacebookApiException] OAuthException: An active access token must be used to query information about the current user.
+REQUEST_URI=/index.php/fanpage/register
+HTTP_REFERER=http://snw.local/
+---
+2012/02/01 14:08:35 [error] [exception.FacebookApiException] OAuthException: An active access token must be used to query information about the current user.
+REQUEST_URI=/index.php/fanpage/me
+---
+2012/02/01 14:38:38 [error] [exception.CException] exception 'CException' with message 'FacebookWrapper and its behaviors do not have a method or closure named "getUser".' in C:\htdocs\yii_framework\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('getUser', Array)
+#1 C:\htdocs\snw\protected\controllers\FanpageController.php(50): FacebookWrapper->getUser()
+#2 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionRegister()
+#3 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('register')
+#7 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('fanpage/registe...')
+#8 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\htdocs\snw\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/fanpage/register
+HTTP_REFERER=http://snw.local/
+---
+2012/02/01 14:39:23 [error] [exception.CException] exception 'CException' with message 'FacebookWrapper and its behaviors do not have a method or closure named "getUser".' in C:\htdocs\yii_framework\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('getUser', Array)
+#1 C:\htdocs\snw\protected\controllers\FanpageController.php(50): FacebookWrapper->getUser()
+#2 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionRegister()
+#3 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('register')
+#7 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('fanpage/registe...')
+#8 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\htdocs\snw\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/fanpage/register
+HTTP_REFERER=http://snw.local/
+---
+2012/02/02 16:36:44 [error] [exception.FacebookApiException] OAuthException: (#200) The user hasn't authorized the application to perform this action
+REQUEST_URI=/index.php/fanpage/invite
+HTTP_REFERER=http://snw.local/
+---
+2012/02/06 16:16:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "join".' in C:\htdocs\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('join')
+#1 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\htdocs\snw\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/join/?request_ids=181556208616659
+HTTP_REFERER=http://apps.facebook.com/localdevapp/?request_ids=181556208616659
+---
+2012/02/06 16:19:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "join".' in C:\htdocs\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('join')
+#1 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\htdocs\snw\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/join/?request_ids=181556208616659
+HTTP_REFERER=http://apps.facebook.com/localdevapp/?request_ids=181556208616659
+---
+2012/02/06 16:59:01 [error] [exception.CException] exception 'CException' with message 'FanpageController and its behaviors do not have a method or closure named "facebook".' in C:\htdocs\yii_framework\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('facebook', Array)
+#1 C:\htdocs\snw\protected\controllers\FanpageController.php(107): FanpageController->facebook('/me')
+#2 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionJoin()
+#3 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('join')
+#7 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('fanpage/join')
+#8 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\htdocs\snw\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/fanpage/join/?request_ids=290410881021626%2C250694758341690%2C340017996038702%2C181556208616659&ref=notif&app_request_type=user_to_user&notif_t=app_request
+HTTP_REFERER=http://apps.facebook.com/localdevapp/?request_ids=290410881021626%2C250694758341690%2C340017996038702%2C181556208616659&ref=notif&app_request_type=user_to_user&notif_t=app_request
+---
+2012/02/06 16:59:23 [error] [exception.FacebookApiException] OAuthException: An active access token must be used to query information about the current user.
+REQUEST_URI=/index.php/fanpage/join/?request_ids=290410881021626%2C250694758341690%2C340017996038702%2C181556208616659&ref=notif&app_request_type=user_to_user&notif_t=app_request
+HTTP_REFERER=http://apps.facebook.com/localdevapp/?request_ids=290410881021626%2C250694758341690%2C340017996038702%2C181556208616659&ref=notif&app_request_type=user_to_user&notif_t=app_request
+---
+2012/02/06 17:27:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "accept".' in C:\htdocs\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(271): CController->missingAction('accept')
+#1 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('accept')
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('fanpage/accept')
+#3 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\htdocs\snw\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/accept
+---
+2012/02/06 18:13:14 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\htdocs\yii_framework\framework\web\CController.php:337
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('request')
+#4 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('fanpage/request')
+#5 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\htdocs\snw\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/fanpage/request
+HTTP_REFERER=http://snw.local/
+---
+2012/02/06 18:13:58 [error] [php] Undefined index:  data (C:\htdocs\snw\protected\controllers\FanpageController.php:152)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/request
+in C:\htdocs\snw\protected\controllers\FanpageController.php (152)
+in C:\htdocs\snw\index.php (13)
+2012/02/06 18:17:39 [error] [php] Indirect modification of overloaded property Request::$attributes has no effect (C:\htdocs\snw\protected\controllers\FanpageController.php:162)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/request
+in C:\htdocs\snw\protected\controllers\FanpageController.php (162)
+in C:\htdocs\snw\index.php (13)
+2012/02/06 18:18:22 [error] [php] Undefined variable: fromId (C:\htdocs\snw\protected\controllers\FanpageController.php:165)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/request
+in C:\htdocs\snw\protected\controllers\FanpageController.php (165)
+in C:\htdocs\snw\index.php (13)
+2012/02/06 18:19:13 [warning] [application] Failed to set unsafe attribute "toId" of "Request".
+in C:\htdocs\snw\protected\controllers\FanpageController.php (166)
+in C:\htdocs\snw\index.php (13)
+2012/02/06 18:19:13 [warning] [application] Failed to set unsafe attribute "fromid" of "Request".
+in C:\htdocs\snw\protected\controllers\FanpageController.php (166)
+in C:\htdocs\snw\index.php (13)
+2012/02/06 18:25:32 [error] [php] Invalid argument supplied for foreach() (C:\htdocs\snw\protected\controllers\FanpageController.php:156)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/request
+in C:\htdocs\snw\protected\controllers\FanpageController.php (156)
+in C:\htdocs\snw\index.php (13)
+2012/02/08 12:25:28 [error] [exception.CException] exception 'CException' with message 'Property "ViewQuestionAnswer.questio" is not defined.' in C:\htdocs\yii_framework\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(144): CComponent->__get('questio')
+#1 C:\htdocs\yii_framework\framework\web\helpers\CHtml.php(1696): CActiveRecord->__get('questio')
+#2 C:\htdocs\yii_framework\framework\web\helpers\CHtml.php(1660): CHtml::value(Object(ViewQuestionAnswer), 'questio')
+#3 C:\htdocs\snw\protected\views\fanpage\public.php(23): CHtml::listData(Array, 'questionId', 'questio')
+#4 C:\htdocs\yii_framework\framework\web\CBaseController.php(127): require('C:\htdocs\snw\p...')
+#5 C:\htdocs\yii_framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\htdocs\snw\p...', Array, true)
+#6 C:\htdocs\yii_framework\framework\web\CController.php(870): CBaseController->renderFile('C:\htdocs\snw\p...', Array, true)
+#7 C:\htdocs\yii_framework\framework\web\CController.php(783): CController->renderPartial('public', Array, true)
+#8 C:\htdocs\snw\protected\controllers\FanpageController.php(32): CController->render('public', Array)
+#9 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#10 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('')
+#14 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#15 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\htdocs\snw\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://static.ak.facebook.com/platform/page_proxy.php?v=4
+---
+2012/02/08 12:31:40 [error] [exception.CDbException] exception 'CDbException' with message 'Column name must be either a string or an array.' in C:\htdocs\yii_framework\framework\db\schema\CDbCommandBuilder.php:701
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\schema\CDbCommandBuilder.php(498): CDbCommandBuilder->createInCondition(Object(CMysqlTableSchema), NULL, Array, '`t`.')
+#1 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1421): CDbCommandBuilder->createPkCriteria(Object(CMysqlTableSchema), 'questionId', '', Array, '`t`.')
+#2 C:\htdocs\snw\protected\controllers\FanpageController.php(20): CActiveRecord->findByPk('questionId')
+#3 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#4 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('')
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#9 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\htdocs\snw\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://static.ak.facebook.com/platform/page_proxy.php?v=4
+---
+2012/02/08 12:33:26 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key='questionId' LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_options` `t` WHERE key=:key LIMIT 1.
+in C:\htdocs\snw\protected\controllers\FanpageController.php (20)
+in C:\htdocs\snw\index.php (13)
+2012/02/08 12:33:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key='questionId' LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_options` `t` WHERE key=:key LIMIT 1' in C:\htdocs\yii_framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\htdocs\snw\protected\controllers\FanpageController.php(20): CActiveRecord->find('key=:key', Array)
+#4 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('')
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#10 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\htdocs\snw\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://static.ak.facebook.com/platform/page_proxy.php?v=4
+---
+2012/02/08 13:51:57 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key='questionId' LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_options` `t` WHERE key=:key LIMIT 1.
+in C:\htdocs\snw\protected\controllers\FanpageController.php (20)
+in C:\htdocs\snw\index.php (13)
+2012/02/08 13:51:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key='questionId' LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_options` `t` WHERE key=:key LIMIT 1' in C:\htdocs\yii_framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\htdocs\snw\protected\controllers\FanpageController.php(20): CActiveRecord->find('key=:key', Array)
+#4 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('')
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#10 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\htdocs\snw\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://static.ak.facebook.com/platform/page_proxy.php?v=4
+---
+2012/02/08 13:52:33 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key='\"questionId\"' LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_options` `t` WHERE key=:key LIMIT 1.
+in C:\htdocs\snw\protected\controllers\FanpageController.php (20)
+in C:\htdocs\snw\index.php (13)
+2012/02/08 13:52:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key='\"questionId\"' LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_options` `t` WHERE key=:key LIMIT 1' in C:\htdocs\yii_framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\htdocs\snw\protected\controllers\FanpageController.php(20): CActiveRecord->find('key=:key', Array)
+#4 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('')
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#10 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\htdocs\snw\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://static.ak.facebook.com/platform/page_proxy.php?v=4
+---
+2012/02/08 13:56:15 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key='questionId' LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_options` `t` WHERE key=:key LIMIT 1.
+in C:\htdocs\snw\protected\controllers\FanpageController.php (20)
+in C:\htdocs\snw\index.php (13)
+2012/02/08 13:56:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key='questionId' LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_options` `t` WHERE key=:key LIMIT 1' in C:\htdocs\yii_framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\htdocs\snw\protected\controllers\FanpageController.php(20): CActiveRecord->find('key=:key', Array)
+#4 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('')
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#10 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\htdocs\snw\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/snw/
+---
+2012/02/08 13:57:23 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key=":key" LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_options` `t` WHERE key=":key" LIMIT 1.
+in C:\htdocs\snw\protected\controllers\FanpageController.php (20)
+in C:\htdocs\snw\index.php (13)
+2012/02/08 13:57:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key=":key" LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_options` `t` WHERE key=":key" LIMIT 1' in C:\htdocs\yii_framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\htdocs\snw\protected\controllers\FanpageController.php(20): CActiveRecord->find('key=":key"', Array)
+#4 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('')
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#10 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\htdocs\snw\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/snw/
+---
+2012/02/08 14:03:20 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key='questionId' LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_options` `t` WHERE key=:key LIMIT 1.
+in C:\htdocs\snw\protected\controllers\FanpageController.php (24)
+in C:\htdocs\snw\index.php (13)
+2012/02/08 14:03:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key='questionId' LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_options` `t` WHERE key=:key LIMIT 1' in C:\htdocs\yii_framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\htdocs\snw\protected\controllers\FanpageController.php(24): CActiveRecord->find(Object(CDbCriteria))
+#4 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('')
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#10 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\htdocs\snw\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/snw/
+---
+2012/02/08 14:03:21 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key='questionId' LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_options` `t` WHERE key=:key LIMIT 1.
+in C:\htdocs\snw\protected\controllers\FanpageController.php (24)
+in C:\htdocs\snw\index.php (13)
+2012/02/08 14:03:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key='questionId' LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_options` `t` WHERE key=:key LIMIT 1' in C:\htdocs\yii_framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\htdocs\snw\protected\controllers\FanpageController.php(24): CActiveRecord->find(Object(CDbCriteria))
+#4 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('')
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#10 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\htdocs\snw\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/snw/
+---
+2012/02/08 14:03:22 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key='questionId' LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_options` `t` WHERE key=:key LIMIT 1.
+in C:\htdocs\snw\protected\controllers\FanpageController.php (24)
+in C:\htdocs\snw\index.php (13)
+2012/02/08 14:03:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key='questionId' LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_options` `t` WHERE key=:key LIMIT 1' in C:\htdocs\yii_framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\htdocs\snw\protected\controllers\FanpageController.php(24): CActiveRecord->find(Object(CDbCriteria))
+#4 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('')
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#10 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\htdocs\snw\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/snw/
+---
+2012/02/08 14:03:22 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key='questionId' LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_options` `t` WHERE key=:key LIMIT 1.
+in C:\htdocs\snw\protected\controllers\FanpageController.php (24)
+in C:\htdocs\snw\index.php (13)
+2012/02/08 14:03:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key='questionId' LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_options` `t` WHERE key=:key LIMIT 1' in C:\htdocs\yii_framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\htdocs\snw\protected\controllers\FanpageController.php(24): CActiveRecord->find(Object(CDbCriteria))
+#4 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('')
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#10 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\htdocs\snw\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/snw/
+---
+2012/02/08 14:03:22 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key='questionId' LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_options` `t` WHERE key=:key LIMIT 1.
+in C:\htdocs\snw\protected\controllers\FanpageController.php (24)
+in C:\htdocs\snw\index.php (13)
+2012/02/08 14:03:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key='questionId' LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_options` `t` WHERE key=:key LIMIT 1' in C:\htdocs\yii_framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\htdocs\snw\protected\controllers\FanpageController.php(24): CActiveRecord->find(Object(CDbCriteria))
+#4 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('')
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#10 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\htdocs\snw\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/snw/
+---
+2012/02/08 14:07:29 [error] [php] Object of class Options could not be converted to string (C:\htdocs\snw\protected\controllers\FanpageController.php:25)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/snw/
+in C:\htdocs\snw\protected\controllers\FanpageController.php (25)
+in C:\htdocs\snw\index.php (13)
+2012/02/08 14:07:39 [error] [php] Object of class Options could not be converted to string (C:\htdocs\snw\protected\controllers\FanpageController.php:25)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/snw/
+in C:\htdocs\snw\protected\controllers\FanpageController.php (25)
+in C:\htdocs\snw\index.php (13)
+2012/02/08 14:10:28 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT * FROM `view_question_answer` `t` WHERE questionId=:questionId LIMIT 1.
+in C:\htdocs\snw\protected\views\fanpage\public.php (18)
+in C:\htdocs\snw\protected\controllers\FanpageController.php (40)
+in C:\htdocs\snw\index.php (13)
+2012/02/08 14:10:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT * FROM `view_question_answer` `t` WHERE questionId=:questionId LIMIT 1' in C:\htdocs\yii_framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\htdocs\snw\protected\views\fanpage\public.php(18): CActiveRecord->find('questionId=:que...', Array)
+#4 C:\htdocs\yii_framework\framework\web\CBaseController.php(127): require('C:\htdocs\snw\p...')
+#5 C:\htdocs\yii_framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\htdocs\snw\p...', Array, true)
+#6 C:\htdocs\yii_framework\framework\web\CController.php(870): CBaseController->renderFile('C:\htdocs\snw\p...', Array, true)
+#7 C:\htdocs\yii_framework\framework\web\CController.php(783): CController->renderPartial('public', Array, true)
+#8 C:\htdocs\snw\protected\controllers\FanpageController.php(40): CController->render('public', Array)
+#9 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#10 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('')
+#14 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#15 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\htdocs\snw\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/snw/
+---
+2012/02/08 14:10:54 [error] [php] Object of class ViewQuestionAnswer could not be converted to string (C:\htdocs\snw\protected\views\fanpage\public.php:18)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(870): FanpageController->renderFile()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(783): FanpageController->renderPartial()
+#2 C:\htdocs\snw\protected\controllers\FanpageController.php(40): FanpageController->render()
+#3 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#4 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#6 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#7 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/snw/
+in C:\htdocs\snw\protected\views\fanpage\public.php (18)
+in C:\htdocs\snw\protected\controllers\FanpageController.php (40)
+in C:\htdocs\snw\index.php (13)
+2012/02/08 14:14:24 [error] [php] Undefined variable: criteria (C:\htdocs\snw\protected\controllers\FanpageController.php:20)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/snw/
+in C:\htdocs\snw\protected\controllers\FanpageController.php (20)
+in C:\htdocs\snw\index.php (13)
+2012/02/08 14:14:59 [error] [php] Trying to get property of non-object (C:\htdocs\snw\protected\controllers\FanpageController.php:38)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/snw/
+in C:\htdocs\snw\protected\controllers\FanpageController.php (38)
+in C:\htdocs\snw\index.php (13)
+2012/02/08 14:15:16 [error] [php] Trying to get property of non-object (C:\htdocs\snw\protected\controllers\FanpageController.php:38)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/snw/
+in C:\htdocs\snw\protected\controllers\FanpageController.php (38)
+in C:\htdocs\snw\index.php (13)
+2012/02/08 14:15:18 [error] [php] Trying to get property of non-object (C:\htdocs\snw\protected\controllers\FanpageController.php:38)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/snw/
+in C:\htdocs\snw\protected\controllers\FanpageController.php (38)
+in C:\htdocs\snw\index.php (13)
+2012/02/08 14:17:59 [error] [php] Undefined offset:  4 (C:\htdocs\snw\protected\controllers\FanpageController.php:24)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(13): CWebApplication->run()
+REQUEST_URI=/snw/
+in C:\htdocs\snw\protected\controllers\FanpageController.php (24)
+in C:\htdocs\snw\index.php (13)
+2012/02/08 14:28:53 [error] [php] Use of undefined constant ViewQuestionAnswer - assumed 'ViewQuestionAnswer' (C:\htdocs\snw\protected\views\fanpage\public.php:19)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(870): FanpageController->renderFile()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(783): FanpageController->renderPartial()
+#2 C:\htdocs\snw\protected\controllers\FanpageController.php(42): FanpageController->render()
+#3 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#4 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#6 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#7 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\htdocs\snw\index.php(12): CWebApplication->run()
+REQUEST_URI=/snw/
+in C:\htdocs\snw\protected\views\fanpage\public.php (19)
+in C:\htdocs\snw\protected\controllers\FanpageController.php (42)
+in C:\htdocs\snw\index.php (12)
+2012/02/08 14:29:05 [error] [php] Object of class ViewQuestionAnswer could not be converted to string (C:\htdocs\yii_framework\framework\web\helpers\CHtml.php:144)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\helpers\CHtml.php(1560): radioButtonList()
+#1 C:\htdocs\snw\protected\views\fanpage\public.php(19): activeRadioButtonList()
+#2 C:\htdocs\yii_framework\framework\web\CBaseController.php(127): require()
+#3 C:\htdocs\yii_framework\framework\web\CBaseController.php(96): FanpageController->renderInternal()
+#4 C:\htdocs\yii_framework\framework\web\CController.php(870): FanpageController->renderFile()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(783): FanpageController->renderPartial()
+#6 C:\htdocs\snw\protected\controllers\FanpageController.php(42): FanpageController->render()
+#7 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#8 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#10 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#11 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#12 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#13 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\htdocs\snw\index.php(12): CWebApplication->run()
+REQUEST_URI=/snw/
+in C:\htdocs\snw\protected\views\fanpage\public.php (19)
+in C:\htdocs\snw\protected\controllers\FanpageController.php (42)
+in C:\htdocs\snw\index.php (12)
+2012/02/08 16:04:04 [error] [php] Array to string conversion (C:\htdocs\snw\protected\controllers\FanpageController.php:97)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/register
+in C:\htdocs\snw\protected\controllers\FanpageController.php (97)
+in C:\htdocs\snw\index.php (12)
+2012/02/08 16:21:26 [error] [php] Undefined variable: question (C:\htdocs\snw\protected\controllers\FanpageController.php:45)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in C:\htdocs\snw\protected\controllers\FanpageController.php (45)
+in C:\htdocs\snw\index.php (12)
+2012/02/09 12:21:23 [error] [php] Object of class UserFriend could not be converted to string (C:\htdocs\snw\protected\views\fanpage\returning.php:10)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(870): FanpageController->renderFile()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(783): FanpageController->renderPartial()
+#2 C:\htdocs\snw\protected\controllers\FanpageController.php(37): FanpageController->render()
+#3 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#4 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#6 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#7 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\htdocs\snw\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in C:\htdocs\snw\protected\views\fanpage\returning.php (10)
+in C:\htdocs\snw\protected\controllers\FanpageController.php (37)
+in C:\htdocs\snw\index.php (12)
+2012/02/09 13:45:20 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':=requestId LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_request` `t` WHERE requestId:=requestId LIMIT 1.
+in C:\htdocs\snw\protected\controllers\FanpageController.php (180)
+in C:\htdocs\snw\index.php (12)
+2012/02/09 13:45:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':=requestId LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_request` `t` WHERE requestId:=requestId LIMIT 1' in C:\htdocs\yii_framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\htdocs\snw\protected\controllers\FanpageController.php(180): CActiveRecord->find('requestId:=requ...', Array)
+#4 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionProcessRequest()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('processrequest')
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('fanpage/process...')
+#10 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\htdocs\snw\index.php(12): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/fanpage/processrequest
+---
+2012/02/09 13:52:00 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: SELECT * FROM `app_user_friend` `t` WHERE fbid=:fbid AND friendFbid=:friendFbid LIMIT 1.
+in C:\htdocs\snw\protected\controllers\FanpageController.php (195)
+in C:\htdocs\snw\protected\controllers\FanpageController.php (184)
+in C:\htdocs\snw\index.php (12)
+2012/02/09 13:52:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: SELECT * FROM `app_user_friend` `t` WHERE fbid=:fbid AND friendFbid=:friendFbid LIMIT 1' in C:\htdocs\yii_framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\htdocs\snw\protected\controllers\FanpageController.php(195): CActiveRecord->find('fbid=:fbid AND ...', Array)
+#4 C:\htdocs\snw\protected\controllers\FanpageController.php(184): FanpageController->isFriend('100003586987625', '552072128')
+#5 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionProcessRequest()
+#6 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('processrequest')
+#10 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('fanpage/process...')
+#11 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\htdocs\snw\index.php(12): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php/fanpage/processrequest
+---
+2012/02/09 13:56:45 [error] [php] Undefined variable: friend (C:\htdocs\snw\protected\controllers\FanpageController.php:195)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#2 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#4 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#5 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\htdocs\snw\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/processrequest
+in C:\htdocs\snw\protected\controllers\FanpageController.php (195)
+in C:\htdocs\snw\protected\controllers\FanpageController.php (184)
+in C:\htdocs\snw\index.php (12)
+2012/02/09 13:57:05 [error] [php] Trying to get property of non-object (C:\htdocs\snw\protected\controllers\FanpageController.php:196)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#2 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#4 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#5 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\htdocs\snw\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/processrequest
+in C:\htdocs\snw\protected\controllers\FanpageController.php (196)
+in C:\htdocs\snw\protected\controllers\FanpageController.php (184)
+in C:\htdocs\snw\index.php (12)
+2012/02/09 14:56:29 [error] [php] Undefined variable: request_ids (C:\htdocs\snw\protected\controllers\FanpageController.php:172)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#2 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#4 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#5 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\htdocs\snw\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/join/?request_ids=104812232981835&ref=notif&app_request_type=user_to_user&notif_t=app_request
+in C:\htdocs\snw\protected\controllers\FanpageController.php (172)
+in C:\htdocs\snw\protected\controllers\FanpageController.php (238)
+in C:\htdocs\snw\index.php (12)
+2012/02/09 16:36:34 [error] [php] Object of class CInlineAction could not be converted to string (C:\htdocs\snw\protected\controllers\FanpageController.php:11)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#1 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#3 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\htdocs\snw\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in C:\htdocs\snw\protected\controllers\FanpageController.php (11)
+in C:\htdocs\snw\index.php (12)
+2012/02/09 16:40:49 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\htdocs\snw\protected\models\FacebookWrapper.php on line 13 and defined (C:\htdocs\snw\protected\vendors\facebook\facebook.php:35)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(307): FanpageController->beforeAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#2 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#4 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#5 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\htdocs\snw\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in C:\htdocs\snw\protected\vendors\facebook\facebook.php (35)
+in C:\htdocs\snw\protected\models\FacebookWrapper.php (13)
+in C:\htdocs\snw\protected\controllers\FanpageController.php (11)
+2012/02/09 16:40:58 [error] [php] Undefined index:  appId (C:\htdocs\snw\protected\vendors\facebook\base_facebook.php:213)
+Stack trace:
+#0 C:\htdocs\snw\protected\controllers\FanpageController.php(11): FacebookWrapper->FacebookWrapper()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(307): FanpageController->beforeAction()
+#2 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#3 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#4 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#5 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\htdocs\snw\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in C:\htdocs\snw\protected\vendors\facebook\base_facebook.php (213)
+in C:\htdocs\snw\protected\vendors\facebook\facebook.php (39)
+in C:\htdocs\snw\protected\models\FacebookWrapper.php (13)
+2012/02/09 16:43:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ar_snw.yiisession' doesn't exist. The SQL statement executed was: DELETE FROM YiiSession WHERE expire<1328776985.
+in C:\htdocs\snw\protected\controllers\FanpageController.php (22)
+in C:\htdocs\snw\index.php (12)
+2012/02/09 16:59:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\htdocs\yii_framework\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\htdocs\yii_framework\framework\web\CDbHttpSession.php(179): CDbConnection->setActive(true)
+#2 [internal function]: CDbHttpSession->openSession('', 'PHPSESSID')
+#3 C:\htdocs\yii_framework\framework\web\CHttpSession.php(115): session_start()
+#4 C:\htdocs\snw\protected\controllers\FanpageController.php(12): CHttpSession->open()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(307): FanpageController->beforeAction(Object(CInlineAction))
+#6 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('')
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#10 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\htdocs\snw\index.php(12): CApplication->run()
+#12 {main}
+REQUEST_URI=/snw/
+---
+2012/02/09 17:00:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\htdocs\yii_framework\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\htdocs\yii_framework\framework\web\CDbHttpSession.php(179): CDbConnection->setActive(true)
+#2 [internal function]: CDbHttpSession->openSession('', 'PHPSESSID')
+#3 C:\htdocs\yii_framework\framework\web\CHttpSession.php(115): session_start()
+#4 C:\htdocs\snw\protected\controllers\FanpageController.php(12): CHttpSession->open()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(307): FanpageController->beforeAction(Object(CInlineAction))
+#6 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('')
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#10 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\htdocs\snw\index.php(12): CApplication->run()
+#12 {main}
+REQUEST_URI=/snw/
+---
+2012/02/09 17:00:37 [error] [php] Undefined variable: _SESSION (C:\htdocs\snw\protected\controllers\FanpageController.php:21)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(12): CWebApplication->run()
+REQUEST_URI=/snw/
+in C:\htdocs\snw\protected\controllers\FanpageController.php (21)
+in C:\htdocs\snw\index.php (12)
+2012/02/09 17:01:41 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ar_snw.yiisession' doesn't exist. The SQL statement executed was: DELETE FROM YiiSession WHERE expire<1328778101.
+in C:\htdocs\snw\protected\controllers\FanpageController.php (49)
+in C:\htdocs\snw\index.php (12)
+2012/02/09 17:02:26 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ar_snw.yiisession' doesn't exist. The SQL statement executed was: DELETE FROM YiiSession WHERE expire<1328778146.
+in C:\htdocs\snw\protected\controllers\FanpageController.php (22)
+in C:\htdocs\snw\index.php (12)
+2012/02/09 17:02:55 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ar_snw.yiisession' doesn't exist. The SQL statement executed was: DELETE FROM YiiSession WHERE expire<1328778175.
+in C:\htdocs\snw\protected\controllers\FanpageController.php (11)
+in C:\htdocs\snw\index.php (12)
+2012/02/09 17:03:31 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.session" is read only.' in C:\htdocs\yii_framework\framework\base\CComponent.php:171
+Stack trace:
+#0 C:\htdocs\snw\protected\controllers\FanpageController.php(11): CComponent->__set('session', Array)
+#1 C:\htdocs\yii_framework\framework\web\CController.php(307): FanpageController->beforeAction(Object(CInlineAction))
+#2 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#3 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('')
+#5 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#6 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\htdocs\snw\index.php(12): CApplication->run()
+#8 {main}
+REQUEST_URI=/snw/
+---
+2012/02/10 16:10:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "getquestion".' in C:\htdocs\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('getquestion')
+#1 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\htdocs\snw\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/getquestion
+---
+2012/02/10 16:10:55 [error] [php] Undefined index:  question (C:\htdocs\snw\protected\controllers\FanpageController.php:281)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/getquestion
+in C:\htdocs\snw\protected\controllers\FanpageController.php (281)
+in C:\htdocs\snw\index.php (12)
+2012/02/10 16:18:16 [error] [php] Undefined index:  question (C:\htdocs\snw\protected\controllers\FanpageController.php:281)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/getquestion
+in C:\htdocs\snw\protected\controllers\FanpageController.php (281)
+in C:\htdocs\snw\index.php (12)
+2012/02/10 16:23:26 [error] [php] Undefined variable: question (C:\htdocs\snw\protected\views\fanpage\public.php:20)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(870): FanpageController->renderFile()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(783): FanpageController->renderPartial()
+#2 C:\htdocs\snw\protected\controllers\FanpageController.php(44): FanpageController->render()
+#3 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#4 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#6 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#7 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\htdocs\snw\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in C:\htdocs\snw\protected\views\fanpage\public.php (20)
+in C:\htdocs\snw\protected\controllers\FanpageController.php (44)
+in C:\htdocs\snw\index.php (12)
+2012/02/10 16:25:40 [error] [php] Undefined index:  question (C:\htdocs\snw\protected\controllers\FanpageController.php:281)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/getquestion
+in C:\htdocs\snw\protected\controllers\FanpageController.php (281)
+in C:\htdocs\snw\index.php (12)
+2012/02/10 16:34:09 [error] [php] Undefined variable: question (C:\htdocs\snw\protected\views\fanpage\public.php:22)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(870): FanpageController->renderFile()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(783): FanpageController->renderPartial()
+#2 C:\htdocs\snw\protected\controllers\FanpageController.php(44): FanpageController->render()
+#3 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#4 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#6 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#7 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\htdocs\snw\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in C:\htdocs\snw\protected\views\fanpage\public.php (22)
+in C:\htdocs\snw\protected\controllers\FanpageController.php (44)
+in C:\htdocs\snw\index.php (12)
+2012/02/10 16:34:27 [error] [php] Undefined variable: question (C:\htdocs\snw\protected\views\fanpage\public.php:22)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(870): FanpageController->renderFile()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(783): FanpageController->renderPartial()
+#2 C:\htdocs\snw\protected\controllers\FanpageController.php(44): FanpageController->render()
+#3 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#4 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#6 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#7 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\htdocs\snw\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in C:\htdocs\snw\protected\views\fanpage\public.php (22)
+in C:\htdocs\snw\protected\controllers\FanpageController.php (44)
+in C:\htdocs\snw\index.php (12)
+2012/02/10 16:34:58 [error] [php] Undefined variable: question (C:\htdocs\snw\protected\views\fanpage\public.php:22)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(870): FanpageController->renderFile()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(783): FanpageController->renderPartial()
+#2 C:\htdocs\snw\protected\controllers\FanpageController.php(44): FanpageController->render()
+#3 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): FanpageController->actionIndex()
+#4 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(287): FanpageController->runAction()
+#6 C:\htdocs\yii_framework\framework\web\CController.php(266): FanpageController->runActionWithFilters()
+#7 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): FanpageController->run()
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\htdocs\snw\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in C:\htdocs\snw\protected\views\fanpage\public.php (22)
+in C:\htdocs\snw\protected\controllers\FanpageController.php (44)
+in C:\htdocs\snw\index.php (12)
+2012/02/11 21:53:27 [error] [php] Object of class UserFriend could not be converted to string (/Users/alfredtan/Sites/snw/protected/controllers/GameController.php:26)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): GameController->runAction()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): GameController->runActionWithFilters()
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): GameController->run()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /Users/alfredtan/Sites/snw/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/game/play
+in /Users/alfredtan/Sites/snw/protected/controllers/GameController.php (26)
+in /Users/alfredtan/Sites/snw/index.php (13)
+2012/02/11 21:55:49 [error] [php] Undefined variable: rand (/Users/alfredtan/Sites/snw/protected/controllers/GameController.php:75)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): GameController->runAction()
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): GameController->runActionWithFilters()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): GameController->run()
+#4 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#5 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /Users/alfredtan/Sites/snw/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/game/play
+in /Users/alfredtan/Sites/snw/protected/controllers/GameController.php (75)
+in /Users/alfredtan/Sites/snw/protected/controllers/GameController.php (24)
+in /Users/alfredtan/Sites/snw/index.php (13)
+2012/02/11 21:55:59 [error] [php] Undefined variable: rand (/Users/alfredtan/Sites/snw/protected/controllers/GameController.php:75)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): GameController->runAction()
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): GameController->runActionWithFilters()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): GameController->run()
+#4 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#5 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /Users/alfredtan/Sites/snw/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/game/play
+in /Users/alfredtan/Sites/snw/protected/controllers/GameController.php (75)
+in /Users/alfredtan/Sites/snw/protected/controllers/GameController.php (24)
+in /Users/alfredtan/Sites/snw/index.php (13)
+2012/02/11 22:49:00 [error] [exception.CDbException] exception 'CDbException' with message 'Column name must be either a string or an array.' in /Users/alfredtan/Sites/yii_framework/framework/db/schema/CDbCommandBuilder.php:701
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/db/schema/CDbCommandBuilder.php(498): CDbCommandBuilder->createInCondition(Object(CMysqlTableSchema), NULL, Array, '`t`.')
+#1 /Users/alfredtan/Sites/yii_framework/framework/db/ar/CActiveRecord.php(1421): CDbCommandBuilder->createPkCriteria(Object(CMysqlTableSchema), '552072128', '', Array, '`t`.')
+#2 /Users/alfredtan/Sites/snw/protected/controllers/GameController.php(19): CActiveRecord->findByPk('552072128')
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/actions/CInlineAction.php(50): GameController->actionUpdate()
+#4 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#6 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('update')
+#8 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('game/update')
+#9 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/game/update
+---
+2012/02/11 22:51:01 [error] [php] Invalid argument supplied for foreach() (/Users/alfredtan/Sites/yii_framework/framework/db/schema/CDbCommandBuilder.php:245)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/actions/CInlineAction.php(50): GameController->actionUpdate()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): GameController->runAction()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): GameController->runActionWithFilters()
+#4 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): GameController->run()
+#5 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#6 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#7 /Users/alfredtan/Sites/snw/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/game/update
+in /Users/alfredtan/Sites/snw/protected/controllers/GameController.php (19)
+in /Users/alfredtan/Sites/snw/index.php (13)
+2012/02/11 23:16:11 [error] [exception.CException] exception 'CException' with message 'Property "SnapAttempts.attribtues" is not defined.' in /Users/alfredtan/Sites/yii_framework/framework/base/CComponent.php:174
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/db/ar/CActiveRecord.php(160): CComponent->__set('attribtues', Array)
+#1 /Users/alfredtan/Sites/snw/protected/controllers/GameController.php(47): CActiveRecord->__set('attribtues', Array)
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/actions/CInlineAction.php(50): GameController->actionComplete()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('complete')
+#7 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('game/complete')
+#8 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/game/complete
+---
+2012/02/11 23:17:18 [error] [php] Undefined offset:  0 (/Users/alfredtan/Sites/snw/protected/controllers/GameController.php:84)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): GameController->runAction()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): GameController->runActionWithFilters()
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): GameController->run()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /Users/alfredtan/Sites/snw/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/game/play
+in /Users/alfredtan/Sites/snw/protected/controllers/GameController.php (84)
+in /Users/alfredtan/Sites/snw/index.php (13)
+2012/02/11 23:19:10 [error] [php] Indirect modification of overloaded element of CDbHttpSession has no effect (/Users/alfredtan/Sites/snw/protected/controllers/GameController.php:97)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): GameController->runAction()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): GameController->runActionWithFilters()
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): GameController->run()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /Users/alfredtan/Sites/snw/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/game/play
+in /Users/alfredtan/Sites/snw/protected/controllers/GameController.php (97)
+in /Users/alfredtan/Sites/snw/index.php (13)
+2012/02/11 23:21:15 [error] [php] Undefined variable: xml (/Users/alfredtan/Sites/snw/protected/controllers/GameController.php:98)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): GameController->runAction()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): GameController->runActionWithFilters()
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): GameController->run()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /Users/alfredtan/Sites/snw/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/game/play
+in /Users/alfredtan/Sites/snw/protected/controllers/GameController.php (98)
+in /Users/alfredtan/Sites/snw/index.php (13)
+2012/02/11 23:21:35 [error] [php] Undefined variable: xml (/Users/alfredtan/Sites/snw/protected/controllers/GameController.php:98)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): GameController->runAction()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): GameController->runActionWithFilters()
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): GameController->run()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /Users/alfredtan/Sites/snw/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/game/play
+in /Users/alfredtan/Sites/snw/protected/controllers/GameController.php (98)
+in /Users/alfredtan/Sites/snw/index.php (13)
+2012/02/11 23:28:30 [error] [php] Undefined index:  photos (/Users/alfredtan/Sites/snw/protected/controllers/GameController.php:28)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): GameController->runAction()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): GameController->runActionWithFilters()
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): GameController->run()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /Users/alfredtan/Sites/snw/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/game/complete
+in /Users/alfredtan/Sites/snw/protected/controllers/GameController.php (28)
+in /Users/alfredtan/Sites/snw/index.php (13)
+2012/02/12 11:32:02 [error] [php] Undefined offset:  0 (/Users/alfredtan/Sites/snw/protected/controllers/GameController.php:100)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): GameController->runAction()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): GameController->runActionWithFilters()
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): GameController->run()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /Users/alfredtan/Sites/snw/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/game/play
+in /Users/alfredtan/Sites/snw/protected/controllers/GameController.php (100)
+in /Users/alfredtan/Sites/snw/index.php (13)
+2012/02/12 11:32:09 [error] [php] Undefined index:  photos (/Users/alfredtan/Sites/snw/protected/controllers/GameController.php:20)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): GameController->runAction()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): GameController->runActionWithFilters()
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): GameController->run()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /Users/alfredtan/Sites/snw/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/game/complete
+in /Users/alfredtan/Sites/snw/protected/controllers/GameController.php (20)
+in /Users/alfredtan/Sites/snw/index.php (13)
+2012/02/12 11:32:14 [error] [php] Undefined offset:  0 (/Users/alfredtan/Sites/snw/protected/controllers/GameController.php:100)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): GameController->runAction()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): GameController->runActionWithFilters()
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): GameController->run()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /Users/alfredtan/Sites/snw/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/game/play
+in /Users/alfredtan/Sites/snw/protected/controllers/GameController.php (100)
+in /Users/alfredtan/Sites/snw/index.php (13)
+2012/02/12 11:37:55 [error] [php] Trying to get property of non-object (/Users/alfredtan/Sites/snw/protected/controllers/GameController.php:60)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): GameController->runAction()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): GameController->runActionWithFilters()
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): GameController->run()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /Users/alfredtan/Sites/snw/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/game/play
+in /Users/alfredtan/Sites/snw/protected/controllers/GameController.php (60)
+in /Users/alfredtan/Sites/snw/index.php (13)
+2012/02/12 11:38:23 [error] [php] Trying to get property of non-object (/Users/alfredtan/Sites/snw/protected/controllers/GameController.php:60)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): GameController->runAction()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): GameController->runActionWithFilters()
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): GameController->run()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /Users/alfredtan/Sites/snw/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/game/play
+in /Users/alfredtan/Sites/snw/protected/controllers/GameController.php (60)
+in /Users/alfredtan/Sites/snw/index.php (13)
+2012/02/12 11:38:26 [error] [php] Trying to get property of non-object (/Users/alfredtan/Sites/snw/protected/controllers/GameController.php:60)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): GameController->runAction()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): GameController->runActionWithFilters()
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): GameController->run()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /Users/alfredtan/Sites/snw/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/game/play
+in /Users/alfredtan/Sites/snw/protected/controllers/GameController.php (60)
+in /Users/alfredtan/Sites/snw/index.php (13)
+2012/02/12 12:26:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('index.php')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('index.php')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/index.p...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/index.php/fanpage/processrequest
+HTTP_REFERER=http://snw.local/index.php/fanpage/index
+---
+2012/02/12 12:32:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('index.php')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('index.php')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/index.p...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/index.php/fanpage/processrequest
+HTTP_REFERER=http://snw.local/index.php/fanpage/index
+---
+2012/02/12 12:34:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('index.php')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('index.php')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/index.p...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/index.php/fanpage/processrequest
+HTTP_REFERER=http://snw.local/index.php/fanpage/index
+---
+2012/02/12 12:35:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "snap".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('snap')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('snap')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/snap')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/snap
+HTTP_REFERER=http://snw.local/index.php/fanpage/index
+---
+2012/02/12 12:40:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/register-header.jpg
+HTTP_REFERER=http://snw.local/index.php/fanpage/index
+---
+2012/02/12 12:40:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/register-header.jpg
+HTTP_REFERER=http://snw.local/index.php/fanpage/index
+---
+2012/02/12 13:00:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/form_submit.png
+HTTP_REFERER=http://snw.local/index.php/fanpage/index
+---
+2012/02/12 13:00:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/form_submit.png
+HTTP_REFERER=http://snw.local/index.php/fanpage/index
+---
+2012/02/12 13:00:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/form_submit.png
+HTTP_REFERER=http://snw.local/index.php/fanpage/index
+---
+2012/02/12 13:00:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/form_submit.png
+HTTP_REFERER=http://snw.local/index.php/fanpage/index
+---
+2012/02/12 13:00:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/form_submit.png
+HTTP_REFERER=http://snw.local/index.php/fanpage/index
+---
+2012/02/12 13:00:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/form_submit.png
+HTTP_REFERER=http://snw.local/index.php/fanpage/index
+---
+2012/02/12 13:39:06 [error] [php] Undefined variable: model (/Users/alfredtan/Sites/snw/protected/views/fanpage/index.php:28)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(870): FanpageController->renderFile()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(783): FanpageController->renderPartial()
+#2 /Users/alfredtan/Sites/snw/protected/controllers/FanpageController.php(52): FanpageController->render()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/actions/CInlineAction.php(50): FanpageController->actionSnap()
+#4 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): FanpageController->runAction()
+#6 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): FanpageController->runActionWithFilters()
+#7 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): FanpageController->run()
+#8 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Users/alfredtan/Sites/snw/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/snap
+in /Users/alfredtan/Sites/snw/protected/views/fanpage/index.php (28)
+in /Users/alfredtan/Sites/snw/protected/controllers/FanpageController.php (52)
+in /Users/alfredtan/Sites/snw/index.php (13)
+2012/02/12 13:40:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/fb_profile_sample.jpg
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 13:40:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/fb_profile_sample.jpg
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 13:41:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/fb_profile_sample.jpg
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 13:41:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/fb_profile_sample.jpg
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 13:41:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/fb_profile_sample.jpg
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 13:42:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('css')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('css')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/css/ins...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/css/instructions.css
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 13:42:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/fb_profile_sample.jpg
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 13:42:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/fb_profile_sample.jpg
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 13:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/fb_profile_sample.jpg
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 13:50:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "photos.xml".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('photos.xml')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('photos.xml')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/photos....')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/photos.xml
+HTTP_REFERER=http://snw.local/swf/camera.swf
+---
+2012/02/12 13:52:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "photos.xml".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('photos.xml')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('photos.xml')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/photos....')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/photos.xml
+HTTP_REFERER=http://snw.local/swf/camera.swf
+---
+2012/02/12 13:52:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "photos.xml".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('photos.xml')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('photos.xml')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/photos....')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/photos.xml
+HTTP_REFERER=http://snw.local/swf/camera.swf
+---
+2012/02/12 13:52:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "photos.xml".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('photos.xml')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('photos.xml')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/photos....')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/photos.xml
+HTTP_REFERER=http://snw.local/swf/camera.swf
+---
+2012/02/12 13:53:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "photos.xml".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('photos.xml')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('photos.xml')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/photos....')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/photos.xml
+HTTP_REFERER=http://snw.local/swf/camera.swf
+---
+2012/02/12 14:14:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/polaroid/c.png
+HTTP_REFERER=http://snw.local/swf/camera.swf
+---
+2012/02/12 14:15:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/polaroid/a.png
+HTTP_REFERER=http://snw.local/swf/camera.swf
+---
+2012/02/12 14:19:28 [error] [php] Undefined offset:  3 (/Users/alfredtan/Sites/snw/protected/controllers/GameController.php:108)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): GameController->runAction()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): GameController->runActionWithFilters()
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): GameController->run()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /Users/alfredtan/Sites/snw/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/game/play
+in /Users/alfredtan/Sites/snw/protected/controllers/GameController.php (108)
+in /Users/alfredtan/Sites/snw/index.php (13)
+2012/02/12 14:19:39 [error] [php] Undefined offset:  3 (/Users/alfredtan/Sites/snw/protected/controllers/GameController.php:108)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): GameController->runAction()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): GameController->runActionWithFilters()
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): GameController->run()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /Users/alfredtan/Sites/snw/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/game/play
+in /Users/alfredtan/Sites/snw/protected/controllers/GameController.php (108)
+in /Users/alfredtan/Sites/snw/index.php (13)
+2012/02/12 14:24:12 [error] [php] Undefined index:  to (/Users/alfredtan/Sites/snw/protected/controllers/FanpageController.php:280)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): FanpageController->runAction()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): FanpageController->runActionWithFilters()
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): FanpageController->run()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /Users/alfredtan/Sites/snw/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/request
+in /Users/alfredtan/Sites/snw/protected/controllers/FanpageController.php (280)
+in /Users/alfredtan/Sites/snw/index.php (13)
+2012/02/12 14:33:21 [error] [php] Undefined index:  fbid (/Users/alfredtan/Sites/snw/protected/controllers/FanpageController.php:286)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): FanpageController->runAction()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): FanpageController->runActionWithFilters()
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): FanpageController->run()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /Users/alfredtan/Sites/snw/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/request
+in /Users/alfredtan/Sites/snw/protected/controllers/FanpageController.php (286)
+in /Users/alfredtan/Sites/snw/index.php (13)
+2012/02/12 14:39:14 [error] [php] Undefined index:  to (/Users/alfredtan/Sites/snw/protected/controllers/FanpageController.php:280)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): FanpageController->runAction()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): FanpageController->runActionWithFilters()
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): FanpageController->run()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /Users/alfredtan/Sites/snw/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/fanpage/request
+in /Users/alfredtan/Sites/snw/protected/controllers/FanpageController.php (280)
+in /Users/alfredtan/Sites/snw/index.php (13)
+2012/02/12 15:06:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/bg-win.png
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 15:06:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/btn-share.png
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 15:06:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/bg-win.png
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 15:06:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/btn-share.png
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 15:07:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/btn-share.png
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 15:07:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/bg-win.png
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 15:07:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/btn-share.png
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap#
+---
+2012/02/12 15:17:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/bg.jpg
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 15:17:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/bg-lose.png
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 15:17:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/btn-share-tips.png
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 15:17:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/bg.jpg
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 15:17:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/btn-share-tips.png
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 15:17:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/bg-lose.png
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 15:18:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/bg-lose.png
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 15:20:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/btn-share.png
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 15:20:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/btn-share-roll.png
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 15:20:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/btn-share.png
+HTTP_REFERER=http://snw.local/index.php/fanpage/snap
+---
+2012/02/12 16:41:14 [error] [php] Undefined variable: data (/Users/alfredtan/Sites/snw/protected/controllers/GameController.php:57)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): GameController->runAction()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): GameController->runActionWithFilters()
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): GameController->run()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /Users/alfredtan/Sites/snw/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/game/result
+in /Users/alfredtan/Sites/snw/protected/controllers/GameController.php (57)
+in /Users/alfredtan/Sites/snw/index.php (13)
+2012/02/12 17:06:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'ar_snw'@'localhost' (using password: YES)' in /Users/alfredtan/Sites/yii_framework/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /Users/alfredtan/Sites/yii_framework/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /Users/alfredtan/Sites/yii_framework/framework/base/CModule.php(388): CDbConnection->init()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CDbHttpSession.php(154): CModule->getComponent('db')
+#4 /Users/alfredtan/Sites/yii_framework/framework/web/CDbHttpSession.php(206): CDbHttpSession->getDbConnection()
+#5 [internal function]: CDbHttpSession->readSession('f9f2da73d9b9871...')
+#6 /Users/alfredtan/Sites/yii_framework/framework/web/CHttpSession.php(115): session_start()
+#7 /Users/alfredtan/Sites/yii_framework/framework/web/CHttpSession.php(89): CHttpSession->open()
+#8 /Users/alfredtan/Sites/yii_framework/framework/base/CModule.php(388): CHttpSession->init()
+#9 /Users/alfredtan/Sites/yii_framework/framework/base/CModule.php(104): CModule->getComponent('session')
+#10 /Users/alfredtan/Sites/snw/protected/controllers/FanpageController.php(12): CModule->__get('session')
+#11 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(307): FanpageController->beforeAction(Object(CInlineAction))
+#12 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#13 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('')
+#15 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#16 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#17 /Users/alfredtan/Sites/snw/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://static.ak.facebook.com/platform/page_proxy.php?v=4
+---
+2012/02/13 16:13:24 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'eligible' in 'where clause'. The SQL statement executed was: SELECT * FROM `app_user_friend` `t` WHERE fbid=:fbid and eligible=1 order by friendDate desc LIMIT 0,4.
+in C:\htdocs\snw\protected\controllers\GameController.php (84)
+in C:\htdocs\snw\index.php (12)
+2012/02/13 16:13:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'eligible' in 'where clause'. The SQL statement executed was: SELECT * FROM `app_user_friend` `t` WHERE fbid=:fbid and eligible=1 order by friendDate desc LIMIT 0,4' in C:\htdocs\yii_framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\htdocs\snw\protected\controllers\GameController.php(84): CActiveRecord->findAll('fbid=:fbid and ...', Array)
+#4 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): GameController->actionPlay()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('play')
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('game/play')
+#10 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\htdocs\snw\index.php(12): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/game/play
+HTTP_REFERER=http://ec2-46-137-233-116.ap-southeast-1.compute.amazonaws.com/swf/camera.swf
+---
+2012/02/13 16:14:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'eligible' in 'where clause'. The SQL statement executed was: SELECT * FROM `app_user_friend` `t` WHERE fbid=:fbid and eligible=1 order by friendDate desc LIMIT 0,4.
+in C:\htdocs\snw\protected\controllers\GameController.php (84)
+in C:\htdocs\snw\index.php (12)
+2012/02/13 16:14:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'eligible' in 'where clause'. The SQL statement executed was: SELECT * FROM `app_user_friend` `t` WHERE fbid=:fbid and eligible=1 order by friendDate desc LIMIT 0,4' in C:\htdocs\yii_framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\htdocs\snw\protected\controllers\GameController.php(84): CActiveRecord->findAll('fbid=:fbid and ...', Array)
+#4 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): GameController->actionPlay()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('play')
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('game/play')
+#10 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\htdocs\snw\index.php(12): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/game/play
+HTTP_REFERER=http://ec2-46-137-233-116.ap-southeast-1.compute.amazonaws.com/swf/camera.swf
+---
+2012/02/13 16:16:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'eligible' in 'where clause'. The SQL statement executed was: SELECT * FROM `app_user_friend` `t` WHERE fbid=:fbid and eligible=1 order by friendDate desc LIMIT 0,4.
+in C:\htdocs\snw\protected\controllers\GameController.php (84)
+in C:\htdocs\snw\index.php (12)
+2012/02/13 16:16:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'eligible' in 'where clause'. The SQL statement executed was: SELECT * FROM `app_user_friend` `t` WHERE fbid=:fbid and eligible=1 order by friendDate desc LIMIT 0,4' in C:\htdocs\yii_framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\htdocs\snw\protected\controllers\GameController.php(84): CActiveRecord->findAll('fbid=:fbid and ...', Array)
+#4 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): GameController->actionPlay()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('play')
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('game/play')
+#10 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\htdocs\snw\index.php(12): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/game/play
+HTTP_REFERER=http://ec2-46-137-233-116.ap-southeast-1.compute.amazonaws.com/swf/camera.swf
+---
