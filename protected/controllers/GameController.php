@@ -73,6 +73,7 @@ class GameController extends Controller
 	}
 	public function actionPlay()
 	{
+		$_photos = array();
 		$this->photos=array();
 		Yii::app()->session['game'] = array();
 		
@@ -89,6 +90,7 @@ class GameController extends Controller
 		{
 			$per=0;
 		}
+		// if not enough friends, reduce the percentage so that we don't get error
 		else if (count($friend)>0 && count($friend) < 4 )
 		{
 			$per=(count($friend)-1)*25;
@@ -98,36 +100,42 @@ class GameController extends Controller
 		switch($per)
 		{
 			case 0:
-				$this->photos[]='lose';
-				$this->photos[]='lose';
-				$this->photos[]='lose';
-				$this->photos[]='lose';
+				$_photos[]='lose';
+				$_photos[]='lose';
+				$_photos[]='lose';
+				$_photos[]='lose';
+				shuffle($_photos);
 				break;
 
 			case 25:
-				$this->photos[]='lose';
-				$this->photos[]='lose';
-				$this->photos[]='lose';
-				$this->photos[]='friend';
+				$_photos[]='lose';
+				$_photos[]='lose';
+				$_photos[]='lose';
+				$_photos[]='friend';
+				shuffle($_photos);
 				break;
 				
 			case 50:
-				$this->photos[]='lose';
-				$this->photos[]='lose';
-				$this->photos[]='friend';
-				$this->photos[]='friend';
+				$_photos[]='lose';
+				$_photos[]='lose';
+				$_photos[]='friend';
+				$_photos[]='friend';
+				shuffle($friend);
+				shuffle($_photos);
 				break;
 				
 			case 75:
 			case 100:
-				$this->photos[]='friend';
-				$this->photos[]='friend';
-				$this->photos[]='friend';
-				$this->photos[]='friend';
+				$_photos[]='friend';
+				$_photos[]='friend';
+				$_photos[]='friend';
+				$_photos[]='friend';
 				// $this->photos[]='http://graph.facebook.com/'.$friend[3]['friendFbid'].'/picture?type=large';
 				
 				break;
 		}
+		
+		$this->photos = $_photos;
 
 		$xml = '<photos per="'.$per.'">';
 		$friendCounter = 0;
@@ -185,6 +193,8 @@ class GameController extends Controller
 			'/images/polaroid/p19.png',
 			'/images/polaroid/p20.png'
 		);
+		
+		shuffle($lose);
 		
 		return $lose[rand(0,count($lose)-1)];
 		

@@ -30,14 +30,14 @@ ul
 body
 {
 	width:520px;
-	/*height:1500px;
-	overflow-x:hidden;*/
+	height:1500px;
+	overflow-x:hidden;
 	
 }
 
 .wrapper
 {
-	/*position:absolute;*/
+	position:absolute;
 	top:0px;
 	left:0px;
 	margin:0;
@@ -68,7 +68,7 @@ div.bkg_home_1
 	top:0px;
 	left:0px;
 	width:520px;
-	height:235px;
+	height:245px;
 	background-image:url(../images/home_bkg/bkg1_1.jpg);
 	background-repeat:no-repeat;
 }
@@ -76,10 +76,10 @@ div.bkg_home_1
 div.bkg_home_2
 {
 	position:absolute;
-	top:235px;
+	top:245px;
 	left:0px;
 	width:520px;
-	height:319px;
+	height:351px;
 	background-image:url(../images/home_bkg/bkg1_2.jpg);
 	background-repeat:no-repeat;
 }
@@ -87,10 +87,10 @@ div.bkg_home_2
 div.bkg_home_3
 {
 	position:absolute;
-	top:554px;
+	top:596px;
 	left:0px;
 	width:520px;
-	height:255px;
+	height:214px;
 	background-image:url(../images/home_bkg/bkg1_3.jpg);
 	background-repeat:no-repeat;
 }
@@ -99,11 +99,22 @@ div.bkg_home_3
 div.bkg_home_4
 {
 	position:absolute;
-	top:809px;
+	top:810px;
 	left:0px;
 	width:520px;
-	height:347px;
+	height:252px;
 	background-image:url(../images/home_bkg/bkg1_4.jpg);
+	background-repeat:no-repeat;
+}
+
+div.bkg_home_5
+{
+	position:absolute;
+	top:1062px;
+	left:0px;
+	width:520px;
+	height:257px;
+	background-image:url(../images/home_bkg/bkg1_5.jpg);
 	background-repeat:no-repeat;
 }
 
@@ -135,8 +146,8 @@ a.fb_share_link:hover
 div.snap_win
 {
 	position:absolute;
-	left:190px;
-	top:750px;
+	left:20px;
+	top:500px;
 }
 
 a.snap_win_link
@@ -179,6 +190,239 @@ div.t_c a:hover
 
 
 
+/* ===== Weekly winner ===*/
+div.weekly_winner
+{
+	position:absolute;
+	top:1100px;
+}
+
+
+div.weekly_winner ul
+{
+	margin:0 0 0 20px;
+}
+
+div.weekly_winner ul li
+{
+	display:inline-block;
+	padding-right:15px;
+}
+
+div.weekly_winner ul li div span
+{
+	font-family:Arial;
+	font-size:9px;
+}
+
+/* ==== Registration Form ===*/
+div.reg_form_container
+{
+	background:url(../images/black.png) repeat center top; 
+	width:520px; 
+	height:1050px;
+	position:absolute;
+	
+	display:none;
+}
+
+div.reg_form
+{
+	background:url(../images/reg_form_bkg.png);
+	background-repeat:no-repeat;
+	width:363px;
+	height:367px;
+	
+	position:absolute;
+	top:450px;
+	left:80px;
+}
+
+
+div.reg_form_close
+{
+	position:absolute;
+	left:340px;
+	top:-5px;
+}
+
+
+div.form
+{
+	position:absolute;
+	left:20px;
+	top:140px;
+	
+	font-family:Helvetica;
+}
+
+
+/*====== Lose Div pop up ======*/
+div.lose_container
+{
+	background:url(../images/lose_bkg.png);
+	background-repeat:no-repeat;
+	width:453px;
+	height:424px;
+	
+	position:absolute;
+	top:100px;
+	left:20px;
+}
 
 
 
+div.tips_container
+{
+	background:url(../images/tips_bkg.png);
+	background-repeat:no-repeat;
+	width:371px;
+	height:126px;
+	
+	margin:190px 0 0 60px;
+}
+
+
+div.lose_ttl
+{
+	padding:8px;
+}
+
+div.share_tips
+{
+	margin:0px 0 0 180px;
+}
+
+
+/*====== Lose b4 Invite Div pop up ======*/
+div.lose_b4_container
+{
+	background:url(../images/lose_b4_invite_bkg.png);
+	background-repeat:no-repeat;
+	width:428px;
+	height:469px;
+	
+	position:absolute;
+	top:100px;
+	left:20px;
+}
+
+
+div.invite_friends_lose
+{
+	position:absolute;
+	top:350px;
+	left:165px
+}
+
+a.invite_friends_lose_link
+{
+	display:block;
+	width:110px;
+	height:41px;
+	background:url("../images/invite_v1.png") no-repeat 0 0;
+}
+
+a.invite_friends_lose_link:hover
+{
+	background-position: 0 -41px;
+}
+
+
+/*====== Win Div pop up ======*/
+div.win_container
+{
+	background:url(../images/win.png);
+	background-repeat:no-repeat;
+	width:473px;
+	height:441px;
+	
+	position:absolute;
+	top:100px;
+	left:20px;
+}
+
+
+div.invite_friends_lose
+{
+	position:absolute;
+	top:350px;
+	left:165px
+}
+
+a.invite_friends_lose_link
+{
+	display:block;
+	width:110px;
+	height:41px;
+	background:url("../images/invite_v1.png") no-repeat 0 0;
+}
+
+a.invite_friends_lose_link:hover
+{
+	background-position: 0 -41px;
+}
+
+
+/* ===== FB freinds List in win div popup ==== */
+div.fb_friends_popup
+{
+	position:absolute;
+	top:140px;
+	left:130px;
+}
+
+div.fb_friends_popup ul li
+{
+	display:inline-block;
+}
+
+div.profile_frame_win
+{
+	background-color:#FFFFFF;
+	width:64px;
+	margin:0 0 0 5px;
+	padding:2px 2px 5px 2px;
+	height:70px;
+}
+
+div.fb_share_win
+{
+	position:absolute;
+	top:320px;
+	left:190px
+}
+
+/*====== Win b4 Invite Div pop up ======*/
+div.win_b4_invite_container
+{
+	background:url(../images/win_invite.png);
+	background-repeat:no-repeat;
+	width:418px;
+	height:465px;
+	
+	position:absolute;
+	top:100px;
+	left:20px;
+}
+
+
+div.invite_friends_win
+{
+	position:absolute;
+	top:350px;
+	left:165px
+}
+
+a.invite_friends_win_link
+{
+	display:block;
+	width:110px;
+	height:41px;
+	background:url("../images/invite_v1.png") no-repeat 0 0;
+}
+
+a.invite_friends_win_link:hover
+{
+	background-position: 0 -41px;
+}

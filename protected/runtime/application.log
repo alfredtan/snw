@@ -2285,3 +2285,74 @@ Stack trace:
 REQUEST_URI=/index.php/game/play
 HTTP_REFERER=http://ec2-46-137-233-116.ap-southeast-1.compute.amazonaws.com/swf/camera.swf
 ---
+2012/02/13 22:01:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw_git/index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/weekly_winner.jpg
+HTTP_REFERER=http://snw.local/index.php/fanpage/index
+---
+2012/02/13 22:01:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw_git/index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/weekly_winner.jpg
+HTTP_REFERER=http://snw.local/index.php/fanpage/index
+---
+2012/02/13 22:33:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw_git/index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/share_tips.png
+HTTP_REFERER=http://ec2-46-137-233-116.ap-southeast-1.compute.amazonaws.com/index.php/fanpage/snap
+---
+2012/02/13 22:33:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:484
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(271): CController->missingAction('images')
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('images')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('fanpage/images/...')
+#3 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/alfredtan/Sites/snw_git/index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/fanpage/images/lose_title_tips.png
+HTTP_REFERER=http://ec2-46-137-233-116.ap-southeast-1.compute.amazonaws.com/index.php/fanpage/snap
+---
+2012/02/13 23:04:12 [error] [php] Undefined index:  liked (/Users/alfredtan/Sites/snw_git/protected/controllers/FanpageController.php:29)
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): FanpageController->runAction()
+#1 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): FanpageController->runActionWithFilters()
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): FanpageController->run()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /Users/alfredtan/Sites/snw_git/index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in /Users/alfredtan/Sites/snw_git/protected/controllers/FanpageController.php (29)
+in /Users/alfredtan/Sites/snw_git/index.php (12)
+2012/02/13 23:04:52 [error] [exception.CException] exception 'CException' with message 'FanpageController cannot find the requested view "fangate".' in /Users/alfredtan/Sites/yii_framework/framework/web/CController.php:879
+Stack trace:
+#0 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(783): CController->renderPartial('fangate', NULL, true)
+#1 /Users/alfredtan/Sites/snw_git/protected/controllers/FanpageController.php(31): CController->render('fangate')
+#2 /Users/alfredtan/Sites/yii_framework/framework/web/actions/CInlineAction.php(50): FanpageController->actionIndex()
+#3 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Users/alfredtan/Sites/yii_framework/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(276): CController->run('')
+#7 /Users/alfredtan/Sites/yii_framework/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#8 /Users/alfredtan/Sites/yii_framework/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Users/alfredtan/Sites/snw_git/index.php(12): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://static.ak.facebook.com/platform/page_proxy.php?v=4
+---

@@ -7,6 +7,7 @@
 		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>-->
 		<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/facebook.wrapper.js"></script>
 		<link href="<?php echo Yii::app()->request->baseUrl; ?>/css/reveal.css" type="text/css" rel="stylesheet">
+		
 		<link href="<?php echo Yii::app()->request->baseUrl; ?>/css_snw/main.css" type="text/css" rel="stylesheet">
 		<link href="<?php echo Yii::app()->request->baseUrl; ?>/css_snw/instructions.css" rel="stylesheet" type="text/css">
 		<link href="<?php echo Yii::app()->request->baseUrl; ?>/css_snw/register.css" rel="stylesheet" type="text/css">

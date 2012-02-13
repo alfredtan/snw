@@ -17,41 +17,44 @@
             <div class="bkg_instructions">
             	<div class="bkg_instructions_1"></div>
                 <div class="bkg_instructions_2"></div>
-                <div id="flashContent" style="width:100%; height:100%">
-				<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="520" height="600" id="camera" align="middle">
-					<param name="movie" value="/swf/camera.swf" />
-					<param name="quality" value="high" />
-					<param name="bgcolor" value="#ffffff" />
-					<param name="play" value="true" />
-					<param name="loop" value="true" />
-					<param name="wmode" value="transparent" />
-					<param name="scale" value="showall" />
-					<param name="menu" value="true" />
-					<param name="devicefont" value="false" />
-					<param name="salign" value="" />
-					<param name="allowScriptAccess" value="sameDomain" />
-					<!--[if !IE]>-->
-					<object type="application/x-shockwave-flash" data="/swf/camera.swf" width="520" height="600">
-						<param name="movie" value="/swf/camera.swf" />
-						<param name="quality" value="high" />
-						<param name="bgcolor" value="#ffffff" />
-						<param name="play" value="true" />
-						<param name="loop" value="true" />
-						<param name="wmode" value="transparent" />
-						<param name="scale" value="showall" />
-						<param name="menu" value="true" />
-						<param name="devicefont" value="false" />
-						<param name="salign" value="" />
-						<param name="allowScriptAccess" value="sameDomain" />
-					<!--<![endif]-->
-						<a href="http://www.adobe.com/go/getflash">
-							<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
-						</a>
-					<!--[if !IE]>-->
-					</object>
-					<!--<![endif]-->
-				</object>
-			</div>
+                <div style="background: #E2E2E2">
+                	<div id="flashContent" style="width:100%; height:100%; position:relative; top:80px">
+						<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="520" height="600" id="camera" align="middle">
+							<param name="movie" value="/swf/camera.swf" />
+							<param name="quality" value="high" />
+							<param name="bgcolor" value="#ffffff" />
+							<param name="play" value="true" />
+							<param name="loop" value="true" />
+							<param name="wmode" value="transparent" />
+							<param name="scale" value="showall" />
+							<param name="menu" value="true" />
+							<param name="devicefont" value="false" />
+							<param name="salign" value="" />
+							<param name="allowScriptAccess" value="sameDomain" />
+							<!--[if !IE]>-->
+							<object type="application/x-shockwave-flash" data="/swf/camera.swf" width="520" height="600">
+								<param name="movie" value="/swf/camera.swf" />
+								<param name="quality" value="high" />
+								<param name="bgcolor" value="#ffffff" />
+								<param name="play" value="true" />
+								<param name="loop" value="true" />
+								<param name="wmode" value="transparent" />
+								<param name="scale" value="showall" />
+								<param name="menu" value="true" />
+								<param name="devicefont" value="false" />
+								<param name="salign" value="" />
+								<param name="allowScriptAccess" value="sameDomain" />
+							<!--<![endif]-->
+								<a href="http://www.adobe.com/go/getflash">
+									<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+								</a>
+							<!--[if !IE]>-->
+							</object>
+							<!--<![endif]-->
+						</object>
+					</div>
+                	
+                </div>
             </div>
             
             <div class="fb_friends">
@@ -191,31 +194,16 @@
         
         <!-- losemodal -->
         <div id="loseModal" class="reveal-modal medium" style="box-shadow:none; background: none">
-        	<table width="451" border="0" cellspacing="0" cellpadding="0" background="/images/bg-lose-eligible.png">
-			      <tr>
-			        <td height="448" align="left" valign="top"><table width="451" border="0" cellspacing="0" cellpadding="0">
-			          <tr>
-			            <td height="235">&nbsp;</td>
-			          </tr>
-			          
-			          <tr>
-			            <td height="90" align="left" valign="top"><table width="451" border="0" cellspacing="0" cellpadding="0">
-			              <tr>
-			                <td width="70">&nbsp;</td>
-			                <td style="font-family:arial; font-size:12px; " id="tip-msg"></td>
-			                <td width="35">&nbsp;</td>
-			              </tr>
-			            </table></td>
-			          </tr>
-			          <tr>
-			            <td align="center" valign="top">
-			            	<a href="javascript:;" id="share-tip-msg"><img src="/images/btn-share-tips.png" width="117" height="63" id="Image2" onmouseover="MM_swapImage('Image2','','/images/btn-share-tips-roll.png',1)" onmouseout="MM_swapImgRestore()" /></a>
-			              </td>
-			          </tr>
-			        </table></td>
-			      </tr>
-			    </table>
-			    <a class="close-reveal-modal" style="top:108px">&#215;</a>
+        	<div class="lose_container">
+                <div class="tips_container">
+                    <div class="lose_ttl"><img src="/images/lose_title_tips.png" border="0" alt="" /></div>
+                    <div style="padding:5px 10px 5px 15px; font-family:arial; font-size:12px;" id="tip-msg"></div>
+                </div>
+                <div class="share_tips">
+                	<a href="#"><img src="/images/share_tips.png" border="0" alt="share tips" /></a>
+                </div>
+            </div>
+			    <a class="close-reveal-modal" style="top: 158px;right: 22px;">&#215;</a>
         </div>
 		<!-- !losemodal 
 you have registered

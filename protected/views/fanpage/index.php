@@ -1,23 +1,111 @@
- <div class="wrapper">
+<div class="wrapper">
         	
     <div class="bkg_home">
     	<div class="bkg_home_1"></div>
         <div class="bkg_home_2"></div>
         <div class="bkg_home_3"></div>
         <div class="bkg_home_4"></div>
+        <div class="bkg_home_5"></div>
     </div>
     
     
     <div class="fb_share">
-    	<a href="#" class="fb_share_link"></a>
+    	<a href="javascript:;" class="fb_share_link"></a>
     </div>
     
     <div class="snap_win">
-    	<a href="javascript:;" id="myRevealButton" class="snap_win_link"></a>
+    	<a id="snap_win_btn" class="snap_win_link"></a>
     </div>
+    
+    <div class="weekly_winner">
+    	
+        <ul>
+        	<li>
+            	<div>
+                	<span><b>Week 1:</b></span> <br />
+                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                </div>
+            </li>
+            <li>
+            	<div>
+                	<span><b>Week 2:</b></span> <br />
+                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                </div>
+            </li>
+            <li>
+            	<div>
+                	<span><b>Week 3:</b></span> <br />
+                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                </div>
+            </li>
+            <li>
+            	<div>
+                	<span><b>Week 4:</b></span> <br />
+                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                </div>
+            </li>
+            <li>
+            	<div>
+                	<span><b>Week 5:</b></span> <br />
+                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                </div>
+            </li>
+            <li>
+            	<div>
+                	<span><b>Week 6:</b></span> <br />
+                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                </div>
+            </li>
+            <li>
+            	<div>
+                	<span><b>Week 7:</b></span> <br />
+                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                </div>
+            </li>
+            <li>
+            	<div>
+                	<span><b>Week 8:</b></span> <br />
+                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                </div>
+            </li>
+            <li>
+            	<div>
+                	<span><b>Week 9:</b></span> <br />
+                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                </div>
+            </li>
+            <li>
+            	<div>
+                	<span><b>Week 10:</b></span> <br />
+                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                </div>
+            </li>
+            <li>
+            	<div>
+                	<span><b>Week 11:</b></span> <br />
+                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                </div>
+            </li>
+            <li>
+            	<div>
+                	<span><b>Week 12:</b></span> <br />
+                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                </div>
+            </li>
+        </ul>
+        
+    </div>
+                
+    
+</div>
 
-	<!-- modal -->
-	<div id="myModal" class="reveal-modal medium">
+<div class="t_c" style="top:1352px;">
+    	©2012 AsiaRooms.com - All Rights Reserved. <a href="#">Terms and Conditions</a>
+</div>
+
+
+<!-- modal -->
+	<div id="myModal" class="reveal-modal small">
 			<div><img src="/images/register-header.jpg"></div>
 			<br>
 			<div id="form-msg" style="padding:5px; color:#f00; font-size:14px; font-family:Arial"></div>
@@ -27,9 +115,9 @@
 			)); ?>
 			<?php echo $form->textField($model,'name', array('class'=>'input_txt', 'value'=>'Name')); ?><br><br>
 			<?php echo $form->textField($model,'email', array('class'=>'input_txt', 'value'=>'Email')); ?>
-			
-			<div id="question">
-				<p id="question_value" style="font-family: Arial; font-size:12px; color:#333333; padding:5px"></p>
+			<span style="font-size:9px; font-family:Arial; color:#898686; margin:0 0 0 8px;">*We will use this email address to notify you if you are a winner.</span>    
+			<div id="question" style="margin-top:5px">
+				<p id="question_value" style="font-family: Arial; font-size:12px; color:#898686; padding:5px"></p>
 				<p id="question_answers"></p>
 			</div>
 			
@@ -50,17 +138,15 @@
 			<a class="close-reveal-modal">&#215;</a>
 		</div>
     <!-- end modal -->
-</div>
-        
-<div class="t_c">
-    	©2012 AsiaRooms.com - All Rights Reserved. <a href="#">Terms and Conditions</a>
-</div>
-
 
 <script type="text/javascript">
 $(document).ready(function() {
 	
-     $('#myRevealButton').click(function(e) {
+	$("#snap_win_btn").live('mouseover',function() {
+		$(this).css({cursor:'pointer'});
+	});
+	
+     $('#snap_win_btn').click(function(e) {
      	
      		<?php
      			if( $registered )

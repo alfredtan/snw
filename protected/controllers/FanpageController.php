@@ -26,6 +26,12 @@ class FanpageController extends Controller
 		//$this->actionMe();
 		$signedRequest = $this->facebook->getSignedRequest();
 		
+		if($signedRequest['page']['liked']!=1)
+		{
+			$this->render('fangate');
+			Yii::app()->end();
+		}
+
 		// check if user has connected. we need his fbid to check for registration
 		if( isset( $signedRequest['user_id'] ) && $signedRequest['user_id']> 0 )
 		{
