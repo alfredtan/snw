@@ -20,7 +20,7 @@
                 <div style="background: #E2E2E2">
                 	<div id="flashContent" style="width:100%; height:100%; position:relative; top:80px">
 						<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="520" height="600" id="camera" align="middle">
-							<param name="movie" value="/swf/camera.swf" />
+							<param name="movie" value="<?php echo Yii::app()->request->baseUrl; ?>/swf/camera.swf" />
 							<param name="quality" value="high" />
 							<param name="bgcolor" value="#ffffff" />
 							<param name="play" value="true" />
@@ -32,8 +32,8 @@
 							<param name="salign" value="" />
 							<param name="allowScriptAccess" value="sameDomain" />
 							<!--[if !IE]>-->
-							<object type="application/x-shockwave-flash" data="/swf/camera.swf" width="520" height="600">
-								<param name="movie" value="/swf/camera.swf" />
+							<object type="application/x-shockwave-flash" data="<?php echo Yii::app()->request->baseUrl; ?>/swf/camera.swf" width="520" height="600">
+								<param name="movie" value="<?php echo Yii::app()->request->baseUrl; ?>/swf/camera.swf" />
 								<param name="quality" value="high" />
 								<param name="bgcolor" value="#ffffff" />
 								<param name="play" value="true" />
@@ -97,7 +97,7 @@
         
         <!-- winModal -->
         <div id="winModal" class="reveal-modal medium" style="box-shadow:none; background: none">
-        	<table width="451" border="0" cellspacing="0" cellpadding="0" background="/images/bg-win.png">
+        	<table width="451" border="0" cellspacing="0" cellpadding="0" background="<?php echo Yii::app()->request->baseUrl; ?>/images/bg-win.png">
 		      <tr>
 		        <td height="448" align="left" valign="top"><table width="451" border="0" cellspacing="0" cellpadding="0">
 		          <tr>
@@ -107,13 +107,13 @@
 		            <td><table width="451" border="0" cellspacing="0" cellpadding="0">
 		              <tr>
 		                <td width="123">&nbsp;</td>
-		                <td width="56" height="60"><img id="result1" src="/images/spacer.gif" width="56"></td>
+		                <td width="56" height="60"><img id="result1" src="<?php echo Yii::app()->request->baseUrl; ?>/images/spacer.gif" width="56"></td>
 		                <td width="22">&nbsp;</td>
-		                <td width="56"><img id="result2" src="/images/spacer.gif" width="56"></td>
+		                <td width="56"><img id="result2" src="<?php echo Yii::app()->request->baseUrl; ?>/images/spacer.gif" width="56"></td>
 		                <td width="24">&nbsp;</td>
-		                <td width="56"><img id="result3" src="/images/spacer.gif" width="56"></td>
+		                <td width="56"><img id="result3" src="<?php echo Yii::app()->request->baseUrl; ?>/images/spacer.gif" width="56"></td>
 		                <td width="24">&nbsp;</td>
-		                <td width="56"><img id="result4" src="/images/spacer.gif" width="56"></td>
+		                <td width="56"><img id="result4" src="<?php echo Yii::app()->request->baseUrl; ?>/images/spacer.gif" width="56"></td>
 		                <td >&nbsp;</td>
 		              </tr>
 		            </table></td>
@@ -125,7 +125,7 @@
 		            <td align="center" valign="top"><table width="451" border="0" cellspacing="0" cellpadding="0">
 		              <tr>
 		                <td width="175">&nbsp;</td>
-		                <td width="117" align="left" valign="top"><a href="javascript:;" id="share-win-msg"><img src="/images/btn-share.png" width="117" height="63" id="Image1" onmouseover="MM_swapImage('Image1','','/images/btn-share-roll.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+		                <td width="117" align="left" valign="top"><a href="javascript:;" id="share-win-msg"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/btn-share.png" width="117" height="63" id="Image1" onmouseover="MM_swapImage('Image1','','/images/btn-share-roll.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
 		                <td>&nbsp;</td>
 		              </tr>
 		            </table></td>
@@ -147,7 +147,7 @@
 		          </tr>
 		          <tr>
 		            <td align="center" valign="top">
-							<a href="javascript:;" onclick="invite_friends();"><img src="/images/btn-invite-fren.png" width="117" height="63" id="Image1" onmouseover="MM_swapImage('Image1','','/images/btn-invite-fren-roll.png',1)" onmouseout="MM_swapImgRestore()" /></a>
+							<a href="javascript:;" onclick="invite_friends();"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/btn-invite-fren.png" width="117" height="63" id="Image1" onmouseover="MM_swapImage('Image1','','/images/btn-invite-fren-roll.png',1)" onmouseout="MM_swapImgRestore()" /></a>
 		           </td>
 		          </tr>
 		        </table></td>
@@ -167,7 +167,7 @@
 		          </tr>
 		          <tr>
 		            <td align="center" valign="top">
-							<a href="javascript:;" onclick="invite_friends();"><img src="/images/btn-invite-fren.png" width="117" height="63" id="Image1" onmouseover="MM_swapImage('Image1','','/images/btn-invite-fren-roll.png',1)" onmouseout="MM_swapImgRestore()" /></a>
+							<a href="javascript:;" onclick="invite_friends();"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/btn-invite-fren.png" width="117" height="63" id="Image1" onmouseover="MM_swapImage('Image1','','/images/btn-invite-fren-roll.png',1)" onmouseout="MM_swapImgRestore()" /></a>
 		           </td>
 		          </tr>
 		        </table></td>
@@ -196,11 +196,11 @@
         <div id="loseModal" class="reveal-modal medium" style="box-shadow:none; background: none">
         	<div class="lose_container">
                 <div class="tips_container">
-                    <div class="lose_ttl"><img src="/images/lose_title_tips.png" border="0" alt="" /></div>
+                    <div class="lose_ttl"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/lose_title_tips.png" border="0" alt="" /></div>
                     <div style="padding:5px 10px 5px 15px; font-family:arial; font-size:12px;" id="tip-msg"></div>
                 </div>
                 <div class="share_tips">
-                	<a href="javascript:;" id="share-tip-msg"><img src="/images/share_tips.png" border="0" alt="share tips" /></a>
+                	<a href="javascript:;" id="share-tip-msg"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/share_tips.png" border="0" alt="share tips" /></a>
                 </div>
             </div>
 			    <a class="close-reveal-modal" style="top: 158px;right: 22px;">&#215;</a>

@@ -23,73 +23,73 @@
         	<li>
             	<div>
                 	<span><b>Week 1:</b></span> <br />
-                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/weekly_winner.jpg" border="0" alt="winner" />
                 </div>
             </li>
             <li>
             	<div>
                 	<span><b>Week 2:</b></span> <br />
-                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/weekly_winner.jpg" border="0" alt="winner" />
                 </div>
             </li>
             <li>
             	<div>
                 	<span><b>Week 3:</b></span> <br />
-                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/weekly_winner.jpg" border="0" alt="winner" />
                 </div>
             </li>
             <li>
             	<div>
                 	<span><b>Week 4:</b></span> <br />
-                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/weekly_winner.jpg" border="0" alt="winner" />
                 </div>
             </li>
             <li>
             	<div>
                 	<span><b>Week 5:</b></span> <br />
-                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/weekly_winner.jpg" border="0" alt="winner" />
                 </div>
             </li>
             <li>
             	<div>
                 	<span><b>Week 6:</b></span> <br />
-                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/weekly_winner.jpg" border="0" alt="winner" />
                 </div>
             </li>
             <li>
             	<div>
                 	<span><b>Week 7:</b></span> <br />
-                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/weekly_winner.jpg" border="0" alt="winner" />
                 </div>
             </li>
             <li>
             	<div>
                 	<span><b>Week 8:</b></span> <br />
-                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/weekly_winner.jpg" border="0" alt="winner" />
                 </div>
             </li>
             <li>
             	<div>
                 	<span><b>Week 9:</b></span> <br />
-                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/weekly_winner.jpg" border="0" alt="winner" />
                 </div>
             </li>
             <li>
             	<div>
                 	<span><b>Week 10:</b></span> <br />
-                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/weekly_winner.jpg" border="0" alt="winner" />
                 </div>
             </li>
             <li>
             	<div>
                 	<span><b>Week 11:</b></span> <br />
-                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/weekly_winner.jpg" border="0" alt="winner" />
                 </div>
             </li>
             <li>
             	<div>
                 	<span><b>Week 12:</b></span> <br />
-                	<img src="/images/weekly_winner.jpg" border="0" alt="winner" />
+                	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/weekly_winner.jpg" border="0" alt="winner" />
                 </div>
             </li>
         </ul>
@@ -106,7 +106,7 @@
 
 <!-- modal -->
 	<div id="myModal" class="reveal-modal small">
-			<div><img src="/images/register-header.jpg"></div>
+			<div><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/register-header.jpg"></div>
 			<br>
 			<div id="form-msg" style="padding:5px; color:#f00; font-size:14px; font-family:Arial"></div>
 			<?php $form=$this->beginWidget('CActiveForm', array(
@@ -151,7 +151,7 @@ $(document).ready(function() {
      		<?php
      			if( $registered )
 				{
-					echo 'location.href="/index.php/fanpage/snap"';
+					echo 'location.href="<?php echo Yii::app()->request->baseUrl; ?>/index.php/fanpage/snap"';
 				}
 				else
 				{
