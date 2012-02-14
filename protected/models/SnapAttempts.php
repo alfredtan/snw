@@ -41,11 +41,8 @@ class SnapAttempts extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('fbid, status', 'required'),
+			array('fbid, status, attemptDate', 'required'),
 			array('fbid', 'length', 'max'=>20),
-			array('attemptDate','default',
-              'value'=>new CDbExpression('NOW()'),
-              'setOnEmpty'=>false,'on'=>'insert'),
 			array('picture1, picture2, picture3, picture4', 'length', 'max'=>250),
 			array('status', 'length', 'max'=>10),
 			// The following rule is used by search().

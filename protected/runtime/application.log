@@ -2356,3 +2356,91 @@ Stack trace:
 REQUEST_URI=/
 HTTP_REFERER=http://static.ak.facebook.com/platform/page_proxy.php?v=4
 ---
+2012/02/14 14:29:05 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_week_settings` `t` WHERE startDate<=NOW() order by startDate desc limit 0,1 LIMIT 1.
+in C:\htdocs\snw\protected\controllers\DashboardController.php (7)
+in C:\htdocs\snw\index.php (12)
+2012/02/14 14:29:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `app_week_settings` `t` WHERE startDate<=NOW() order by startDate desc limit 0,1 LIMIT 1' in C:\htdocs\yii_framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\htdocs\snw\protected\controllers\DashboardController.php(7): CActiveRecord->find('startDate<=NOW(...')
+#4 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): DashboardController->actionIndex()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('')
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('dashboard')
+#10 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\htdocs\snw\index.php(12): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/dashboard/
+---
+2012/02/14 14:35:00 [error] [php] A non well formed numeric value encountered (C:\htdocs\snw\protected\views\dashboard\index.php:2)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CBaseController.php(96): DashboardController->renderInternal()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(870): DashboardController->renderFile()
+#2 C:\htdocs\yii_framework\framework\web\CController.php(783): DashboardController->renderPartial()
+#3 C:\htdocs\snw\protected\controllers\DashboardController.php(12): DashboardController->render()
+#4 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): DashboardController->actionIndex()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\htdocs\yii_framework\framework\web\CController.php(287): DashboardController->runAction()
+#7 C:\htdocs\yii_framework\framework\web\CController.php(266): DashboardController->runActionWithFilters()
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): DashboardController->run()
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\htdocs\snw\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php/dashboard/
+in C:\htdocs\snw\protected\views\dashboard\index.php (2)
+in C:\htdocs\snw\protected\controllers\DashboardController.php (12)
+in C:\htdocs\snw\index.php (12)
+2012/02/14 14:37:46 [error] [php] Missing argument 3 for CHtml::dropDownList(), called in C:\htdocs\snw\protected\views\dashboard\index.php on line 2 and defined (C:\htdocs\yii_framework\framework\web\helpers\CHtml.php:763)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CBaseController.php(96): DashboardController->renderInternal()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(870): DashboardController->renderFile()
+#2 C:\htdocs\yii_framework\framework\web\CController.php(783): DashboardController->renderPartial()
+#3 C:\htdocs\snw\protected\controllers\DashboardController.php(12): DashboardController->render()
+#4 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): DashboardController->actionIndex()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\htdocs\yii_framework\framework\web\CController.php(287): DashboardController->runAction()
+#7 C:\htdocs\yii_framework\framework\web\CController.php(266): DashboardController->runActionWithFilters()
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): DashboardController->run()
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\htdocs\snw\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php/dashboard/
+in C:\htdocs\snw\protected\views\dashboard\index.php (2)
+in C:\htdocs\snw\protected\controllers\DashboardController.php (12)
+in C:\htdocs\snw\index.php (12)
+2012/02/14 14:44:54 [error] [php] Undefined index:  current_week (C:\htdocs\snw\protected\controllers\DashboardController.php:15)
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\web\CController.php(287): DashboardController->runAction()
+#1 C:\htdocs\yii_framework\framework\web\CController.php(266): DashboardController->runActionWithFilters()
+#2 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): DashboardController->run()
+#3 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\htdocs\snw\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php/dashboard/
+in C:\htdocs\snw\protected\controllers\DashboardController.php (15)
+in C:\htdocs\snw\index.php (12)
+2012/02/14 15:09:34 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dateEntry' in 'where clause'. The SQL statement executed was: SELECT * FROM `app_snap_attempts` `t` WHERE dateEntry between ":startDate" and ":stopDate".
+in C:\htdocs\snw\protected\controllers\DashboardController.php (32)
+in C:\htdocs\snw\index.php (12)
+2012/02/14 15:09:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dateEntry' in 'where clause'. The SQL statement executed was: SELECT * FROM `app_snap_attempts` `t` WHERE dateEntry between ":startDate" and ":stopDate"' in C:\htdocs\yii_framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\htdocs\yii_framework\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\htdocs\yii_framework\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\htdocs\snw\protected\controllers\DashboardController.php(32): CActiveRecord->findAll('dateEntry betwe...', Array)
+#4 C:\htdocs\yii_framework\framework\web\actions\CInlineAction.php(50): DashboardController->actionIndex()
+#5 C:\htdocs\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\htdocs\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\htdocs\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\htdocs\yii_framework\framework\web\CWebApplication.php(276): CController->run('')
+#9 C:\htdocs\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('dashboard')
+#10 C:\htdocs\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\htdocs\snw\index.php(12): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/dashboard
+HTTP_REFERER=http://snw.local/index.php/dashboard
+---
