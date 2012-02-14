@@ -151,7 +151,7 @@ $(document).ready(function() {
      		<?php
      			if( $registered )
 				{
-					echo 'location.href="<?php echo Yii::app()->request->baseUrl; ?>/index.php/fanpage/snap"';
+					echo 'location.href="' . Yii::app()->request->baseUrl . '/index.php/fanpage/snap"';
 				}
 				else
 				{
@@ -209,7 +209,7 @@ $(document).ready(function() {
 function get_question()
 {
 	$.get(
-		'/index.php/fanpage/getquestion',
+		'<?php echo Yii::app()->request->baseUrl; ?>/index.php/fanpage/getquestion',
 		function(d){
 			d=$.parseJSON(d);
 			//console.log(d)
@@ -263,7 +263,7 @@ function onSuccess(d)
 	else if ( d.status =='success')
 	{
 		$("#form-msg").html('Successful!');
-		location.href='/index.php/fanpage/snap';
+		location.href='<?php echo Yii::app()->request->baseUrl; ?>/index.php/fanpage/snap';
 	}
 	else if ( d.status =='not_connected')
 	{
